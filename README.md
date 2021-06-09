@@ -1,8 +1,8 @@
-# **sena-base-2021 v3.2.0**
+# **Configuración y gestión de dispositivos inalámbricos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/TECNOLOGO_GESTION_REDES_DATOS_CF3/](https://ecored-sena.github.io/TECNOLOGO_GESTION_REDES_DATOS_CF3/)
 
 #
 
@@ -12,7 +12,7 @@
 
 ### 2. Instalar extención [EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### 3. Asegurarce que el repositorio tiene TODOS los archivos de la [BASE](https://github.com/ECORED-SENA/ECORED-BASE-2021)
+### 3. Asegurarse que el repositorio tiene TODOS los archivos de la [BASE](https://github.com/ECORED-SENA/ECORED-BASE-2021)
 
 ### 4. Revisar que el archivo package.json en la línea ``"ecored-base-pkg": "*.*.*"`` tenga la [última versión](https://www.npmjs.com/package/ecored-base-pkg)
 

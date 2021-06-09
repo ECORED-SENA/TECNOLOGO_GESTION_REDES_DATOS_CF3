@@ -229,13 +229,13 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: 'Jesús Antonio Vecino Valero',
+        cargo: 'Diseño web',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo Front-End',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',

@@ -152,7 +152,7 @@
     #t_1_5.titulo-segundo
       h2 1.5 Modos de operación
     .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
+      .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-3.mb-4.mb-lg-0
           img(src='@/assets/curso/t1/f14.svg' alt='Imagen 4 computadores')
         .col-lg-9
@@ -193,12 +193,411 @@
             td La configuración es mínima.
             td 
     h3 Modo infraestructura BSS.
-
-
-
-
-
-
+    .row.align-items-center.justify-content-between.mb-4
+      .col-lg-6
+        img(src='@/assets/curso/t1/f16.svg' alt='Ilustración modo BSS')
+      .col-lg-6
+        p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS – Basic Service Set) y las denominan también cliente – servidor o maestro esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red Ethernet cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
+        p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
+    .titulo-quinto.color-acento-contenido
+      h4 Tipos de infraestructuras inalámbricas BSS
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        caption Tipos de infraestructuras inalámbricas BSS
+        thead
+          tr
+            th.texto-acento-contenido Tipo
+            th.texto-acento-contenido Organización
+        tbody
+          tr
+            td.h4.text-center Estrella
+            td <img src='@/assets/curso/t1/f17.svg' alt='Figura relacionada'/>
+          tr
+            td.h4.text-center Punto a punto
+            td <img src='@/assets/curso/t1/f18.svg' alt='Figura relacionada'/>
+          tr
+            td.h4.text-center Con repetidores
+            td <img src='@/assets/curso/t1/f19.svg' alt='Figura relacionada'/>
+          tr
+            td.h4.text-center Malla
+            td <img src='@/assets/curso/t1/f20.svg' alt='Figura relacionada'/>
+    .separador
+    #t_1_6.titulo-segundo
+      h2 1.6 Tecnologías de redes inalámbricas
+    p Actualmente existen dos tipos de redes inalámbricas, para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por sus siglas en inglés (Global Positioning System), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
+    .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between.p-4
+        .col-lg-3.mb-4.mb-lg-0
+          img(src='@/assets/curso/t1/f21.svg' alt='Ilustración redes inalámbricas')
+        .col-lg-9
+          .bloque-texto-a__texto.p-5
+            p Para interiores este estándar no sirve, pues tantas paredes, techos y demás obstáculos apantallan la señal y el receptor no puede sincronizarse a algún satélite, impidiendo dar su localización, entonces, estas tecnologías a utilizar dependen de los requisitos necesarios para acceder a una u otra aplicación o servicio. También es importante tener presente para la tecnología a escoger, el consumo de energía, precio, ancho de banda y velocidad, entre otros factores. En la siguiente tabla se describen brevemente las diferentes tecnologías utilizadas para redes inalámbricas.
+    PasosA.color-primario.mb-5(tipo="n")
+      .row
+        img(src='@/assets/curso/iconos/1.svg' alt='1').figpasos
+        .h3 Bluetooth
+        p Es la tecnología inalámbrica más utilizada para transmitir datos entre dispositivos cercanos, basada en radiofrecuencia, en la banda libre de 2.4 GHz y 3 Mbps de velocidad máxima; es muy frecuente su uso para pasar fotos y música entre teléfonos móviles. Los autos disponen del sistema bluetooth para atender llamadas telefónicas con manos libres al estar conduciendo, en los dispositivos domésticos es más frecuente como en el mouse, los auriculares, entre otros.
+      .row
+        img(src='@/assets/curso/iconos/2.svg' alt='2').figpasod
+        .h3 European Installation Bus
+        p Usado para interconectar redes eléctricas inteligentes.
+      .row
+        img(src='@/assets/curso/iconos/3.svg' alt='3').figpasoi
+        .h3 HomePlug
+        p Protocolo utilizado para tender cableado doméstico de energía eléctrica.
+      .row
+        img(src='@/assets/curso/iconos/4.svg' alt='4').figpasod
+        .h3 IrDA
+        p Estándar físico para la transmisión y recepción de datos por rayos; el espectro infrarrojo sirve para la comunicación bidireccional entre dos extremos con velocidades que oscilan entre  9.600 bps y 4 Mbps.
+      .row
+        img(src='@/assets/curso/iconos/5.svg' alt='5').figpasoi
+        .h3 INSTEON
+        p Red que trabaja en dos bandas de frecuencia, integrando comunicaciones por   radiofrecuencia (RF) con tendido doméstico para energía eléctrica HomePlug.
+      .row
+        img(src='@/assets/curso/iconos/6.svg' alt='6').figpasod
+        .h3 nanoNET
+        p Se trata de protocolos inalámbricos tipo propietario creados para sensores, como competencia de la tecnología ZigBee.
+      .row
+        img(src='@/assets/curso/iconos/7.svg' alt='7').figpasoi
+        .h3 OBEX
+        p Abreviatura de Object EXchange o intercambio de datos, este protocolo fue creado para facilitar el intercambio información binaria entre dispositivos.
+      .row
+        img(src='@/assets/curso/iconos/8.svg' alt='8').figpasod
+        .h3 RadioRa
+        p Protocolo de tipo propietario desarrollado por Lutron para radiofrecuencia (RF) doble vía, usado en el control de iluminación residencial.
+      .row
+        img(src='@/assets/curso/iconos/9.svg' alt='9').figpasoi
+        .h3 Topdog
+        p Protocolo tipo propietario inalámbrico, utilizado en el control de iluminación comercial y residencial.
+      .row
+        img(src='@/assets/curso/iconos/10.svg' alt='10').figpasod
+        .h3 UPB
+        p Protocolo desarrollado para mejorar el desempeño y confiabilidad en cableados de energía eléctrica.
+      .row
+        img(src='@/assets/curso/iconos/11.svg' alt='11').figpasoi
+        .h3 Wifi
+        p Sigla usada para el término en inglés Wireless Fidelity (wifi), tecnología para redes del tipo WLAN Wireless Local Area Network, basada en el estándar IEEE 802.11. Permite realizar la transmisión de información con señales de radiofrecuencia, conectar en una misma red diferentes dispositivos como celulares, PC, blu-ray e impresoras que estén ubicados dentro del radio de cobertura wifi.
+      .row
+        img(src='@/assets/curso/iconos/12.svg' alt='12').figpasod
+        .h3 Wi-Max
+        p Tecnología para red inalámbrica de área metropolitana con un alcance de 50 Km, velocidad de transmisión de hasta 70 Mbps, basada en el estándar 802.16, que opera en el rango de frecuencias de 10 GHz. a 66 GHz con línea de vista, con el estándar 802.16a, opera entre los 2 y 11 GHz. y sin línea de vista, puede usarse para receptores en vehículos móviles siempre que no superen 100 Km/h de velocidad, se creó como competencia para la tecnología xDSL y el acceso por cable módem.
+      .row
+        img(src='@/assets/curso/iconos/13.svg' alt='13').figpasoi
+        .h3 Wireless USB
+        p Wireless Universal Serial Bus (WUSB) en inglés, hace referencia a una conexión de alta velocidad, eficaz y sin cables, basada en la tecnología USB usada para PC.
+      .row
+        img(src='@/assets/curso/iconos/14.svg' alt='14').figpasod
+        .h3 Z-wave
+        p Protocolo tipo propietario usado en redes inalámbricas de control de hogares.
+      .row
+        img(src='@/assets/curso/iconos/15.svg' alt='15').figpasos
+        .h3 ZigBee
+        p Especificación global creada para sistemas de control inalámbrico llamados ZigBee Alliance, se basa en el estándar IEEE 802.15.4, usado para radios digitales de baja frecuencia, con velocidad de transmisión 250 Kbps, y limitado a controladores de 8 bits.
+    .separador
+    #t_1_7.titulo-segundo
+      h2 1.7 Radio, elementos y frecuencias del espectro
+    p Actualmente el espectro radioeléctrico es utilizado de forma ineficiente, debido a que las bandas de frecuencia para su uso se realizan de manera fija, para ello surge una tecnología novedosa que es la radio cognitiva, la cual trae consigo varias funcionalidades que garanticen el acceso dinámico al usar el espectro, aquí se nombran  las cuatro más importantes: identificar la oportunidad de acceso al espectro, seleccionar las bandas de frecuencia a usar, coordinar el acceso al espectro entre usuarios, y movilidad espectral. 
+    p Los dos tipos más usados de radio cognitiva son:
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f22.svg' alt='Icono punto de acceso')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Radio cognitiva completa ("radio de mitola")
+          p Aquí cualquier aspecto que se observe en un nodo inalámbrico será tenido en cuenta para la toma decisiones en el cambio de parámetros de transmisión y/o recepción.
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f23.svg' alt='Icono punto de acceso')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Radio cognitiva detectora del espectro
+          p Para este caso, las decisiones se toman basadas solo en el estado del espectro de radiofrecuencia.
+    p Los dos tipos más usados de radio cognitiva son:
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f24.svg' alt='Icono punto de acceso')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Con licencia
+          p Se utilizan bandas asignadas a usuarios bajo licencia, e incluso se usan bandas libres como la banda UNII o la ISM.
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f25.svg' alt='Icono punto de acceso')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 De acceso libre
+          p Aquí la radio cognitiva solo puede hacer uso de bandas libres del espectro de radiofrecuencia.
+    .separador
+    #t_1_8.titulo-segundo
+      h2 1.8 Diseño e instalación de red
+    p Para el diseño de una red inalámbrica no solo se debe realizar la distribución de los dispositivos activos y pasivos, sino que es pertinente definir protocolos, estándares, normas y demás regulaciones necesarias para cumplir con los requerimientos establecidos. En la planeación de un diseño de red se debe tener en cuenta varios aspectos, entre los cuales se nombran los siguientes pasos que ayudan a optimizar el diseño de la red solicitada:
+    TabsC.color-acento-contenido.mb-4
+      .py-3.py-md-4(titulo="Recolección")
+        .row.align-items-center
+          .col-lg-6
+            img(src="@/assets/curso/t1/f26.svg", alt="Figura relacionada").py-4
+          .col-lg-6
+            .h2 Recolección
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Analizar requerimientos solicitados.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Establecer el tipo de servicios a utilizar. 
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Definir el tipo de dispositivos inalámbricos a conectar en la red (PC portátiles, de oficina, smartphone y tablets).
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Estudiar características y ubicación de los dispositivos activos para la red wifi.
+      .py-3.py-md-4(titulo="Revisión de las instalaciones")
+        .row.align-items-center
+          .col-lg-6
+            img(src="@/assets/curso/t1/f27.svg", alt="Figura relacionada").py-4
+          .col-lg-6
+            .h2 Revisión de las instalaciones
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Definir el tipo de instalación del punto de acceso en cada zona. 
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Determinar canalizaciones del cableado hasta cada punto de acceso.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Comprobar los obstáculos existentes que degraden el rendimiento de la red.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Ubicación de los terminales usuario, equipos de red, como switches, routers y servidores.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Realizar el plano de la planta, basado en el espacio disponible, la alimentación, la seguridad y el sistema de aire acondicionado del lugar.
+      .py-3.py-md-4(titulo="Elección de dispositivos")
+        .row.align-items-center
+          .col-lg-6
+            img(src="@/assets/curso/t1/f28.svg", alt="Figura relacionada").py-4
+          .col-lg-6
+            .h2 Elección de dispositivos
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Determinar las características de las antenas y que cumplan con los requerimientos solicitados.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Definir el tipo de radio a utilizar de acuerdo con la tecnología y estándar de acceso seleccionado.
+      .py-3.py-md-4(titulo="Diseño preliminar")
+        .row.align-items-center
+          .col-lg-6
+            img(src="@/assets/curso/t1/f29.svg", alt="Figura relacionada").py-4
+          .col-lg-6
+            .h2 Diseño preliminar
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Escoger una herramienta digital para realizar el diseño, por ejemplo, Xiro-online.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Realizar el diseño basado en cobertura, con un equipo principal o central cubrir la mayor área posible.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Realizar el diseño basado en capacidad, lo cual permite mejor capacidad, más puntos de acceso y contar con ajustes de la potencia transmitida, que permita calcular posibles interferencias conjuntas con la misma red u otras redes.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Definir la ubicación de los equipos y analizar la precisión de los niveles de cobertura.
+      .py-3.py-md-4(titulo="Diseño definitivo")
+        .row.align-items-center
+          .col-lg-6
+            img(src="@/assets/curso/t1/f30.svg", alt="Figura relacionada").py-4
+          .col-lg-6
+            .h2 e)	Diseño definitivo: 
+            ul.lista-ul--separador
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Realizar site survey de la red diseñada para confirmar el cumplimiento de los requerimientos.
+              li 
+                i.fas.fa-play.texto-acento-contenido.me-4
+                | Ejecutar la simulación real del rendimiento, ubicando los puntos de acceso definidos por medio del software elegido.
+    p Para el caso del diseño de una red inalámbrica se realizará una videoclase o web conference que permita explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red. Las figuras siguientes muestran la interfaz principal y la de planificación de redes radioeléctricas de la herramienta Xirio-Online, la cual tiene acceso de forma tanto gratuita como con pago.
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video
+    h3 Topología de la red
+    p Escoger la topología inicial de la red depende esencialmente de varios aspectos como:
+    .row.align-items-center.mb-4
+      .col-lg-5.mx-auto
+        img(src="@/assets/curso/t1/f31.svg", alt="Persona manejando servidores").py-4
+      .col-lg-6
+        ul.lista-ul--separador
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Requerimientos del cliente.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Cantidad y ubicación de usuarios. 
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Crecimiento esperado de la red.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Estándares inalámbricos y de cableado.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Capacidad de expansión de la red.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Entorno de la red.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Dispositivos y servicios requeridos por la red.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Desempeño deseado.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Elegir recorrido simple desde el nodo y demás componentes para minimizar costos.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Facilitar detección de fallas.
+            li 
+              i.fas.fa-play.texto-acento-contenido.me-4
+              | Optimizar instalación y reconfiguración de la red.
+    .row.align-items-center.justify-content-between.mb-4
+      .col-lg-7
+        h3 Servicios
+        p El DHCP es una extensión del protocolo Bootstrap (BOOTP) desarrollado en 1985 para conectar dispositivos como terminales y estaciones de trabajo sin disco duro con un bootserver, del cual reciben su sistema operativo. 
+        .cajon.color-acento-contenido.p-4.mb-4
+          p.mb-0 El DHCP se desarrolló como solución para redes de gran envergadura y computadores portátiles, por ello complementa a BOOTP, entre otras cosas, por su capacidad para asignar automáticamente direcciones de red reutilizables y por la existencia de posibilidades de configuración adicionales.
+      .col-lg-5.mx-auto
+        img(src='@/assets/curso/t1/f32.svg' alt='Wifi')
+    p Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración proxy por WPAD (Web Proxy Auto-Discovery Protocol) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
+    h3 El servidor DHCP informa al Domain Name System
+    p El servidor DHCP es el encargado de enviar la información al DNS al asignar una nueva dirección IP, la cual se asocia con su nombre de dominio correspondiente. El DHCP no es muy seguro, pues es de fácil manipulación por parte de atacantes a la red que desean apropiarse de la información sensible de sus usuarios.
+    h3 Servidor NAT
+    .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between.p-4
+        .col-lg-3.mb-4.mb-lg-0
+          img(src='@/assets/curso/t1/f33.svg' alt='Persona conectando servidores')
+        .col-lg-9
+          .bloque-texto-a__texto.p-5
+            p Este servidor surge a raíz del crecimiento exponencial de terminales que día a día acceden a Internet, se usa para Traducción de Direcciones de Red con su sigla en inglés NAT o Network Address Translation, y con ello, permitir que los dispositivos de una red utilicen un rango de direcciones especiales (IP privadas) y para conectarse a Internet utilice una dirección IP única (IP pública). Se trata de una mejora o actualización en la que las redes grandes solo usarían una dirección IP y no gran cantidad de ellas.
+            p.mb-0 En la siguiente figura podrá observar el funcionamiento de este Servidor.
+    .titulo-quinto.color-acento-contenido
+      h4 Funcionamiento Servidor NAT
+    .col-lg-10.mx-auto.mb-4
+      img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT')
+      figcaption Nota. Página web Profesional review (s.f.).
+    h3 Modos de funcionamiento para NAT
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f35.svg' alt='Icono estática')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Estática
+          p La dirección IP privada siempre se traduce en la misma dirección IP pública. Cualquier host dentro de la red será así visible desde Internet. 
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f36.svg' alt='Icono dinámica')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Dinámica
+          p A cada dirección IP privada le corresponde al menos una dirección IP pública de las que posee el router, así, cuando un host requiera una conexión a Internet el router asignará la dirección IP pública que no esté siendo usada. De este modo hay más seguridad.
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f37.svg' alt='Icono sobrecarga')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Sobrecarga
+          p Aquí se mapean varias direcciones IP privadas por medio de una dirección IP pública, evitando así contratar más de una dirección IP pública, y se ahorran direcciones IPv4. Se le denomina también PAT (Port Address Translation) y es la más usada en los hogares.
+    .tarjeta-avatar-b.mb-5
+      img(src='@/assets/curso/t1/f38.svg' alt='Icono solapamiento')
+      .tarjeta.fondo-casi-blanco
+        .p-4
+          .h2 Solapamiento
+          p para evitar el conflicto de direcciones, si hay una dirección IP privada de una red es igual a una dirección IP pública que está en uso, el router reemplaza dicha dirección IP por otra.
+    p De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
+    .titulo-quinto.color-acento-contenido
+      h4 Ventajas y desventajas del Servidor NAT
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        caption Ventajas y desventajas del Servidor NAT
+        thead
+          tr
+            th.texto-acento-contenido Ventajas
+            th.texto-acento-contenido Desventajas
+        tbody
+          tr
+            td Ahorro de direcciones IPv4 al conectarse múltiples máquinas de una red a Internet, con una única dirección IP pública.
+            td Mayor potencia de computación en el router para recalcular el Checksum TCP y UDP de cada paquete modificado. 
+          tr
+            td Seguridad, pues las máquinas conectadas a la red mediante NAT no son visibles desde el exterior.
+            td Incompatibilidad de NAT con varias aplicaciones y protocolos que no permiten al router modificar los paquetes.
+          tr
+            td Mientras se llevan a cabo tareas de mantenimiento de la red solo es necesario modificar la tabla de reenvío de un router para desviar todo el tráfico.
+            td 
+    .row.align-items-center.justify-content-between.mb-4
+      .col-lg-7
+        h3 Instalación
+        p Para realizar la correcta instalación de la red inalámbrica es vital realizar un aprestamiento o verificación del entorno, los componentes y herramientas necesarios, aplicando una lista de chequeo que verifique la disponibilidad, estado y características de estos, con la debida antelación (4 a 8 días) para poder tomar los correctivos a los que haya lugar. Igualmente, al menos un día antes o el mismo día muy temprano se debe realizar el alistamiento de los elementos, materiales, herramientas necesarias para la instalación de todos y cada uno de los dispositivos como antenas, repetidores adaptadores, routers y puntos de acceso.
+        .cajon.color-acento-contenido.p-4.mb-4
+          p.mb-0  Una vez cumplidos los anteriores aspectos se procede a realizar la instalación de los componentes de la red inalámbrica por parte del personal idóneo, que cumpla con todos los requisitos y normas vigentes para dicha labor.
+      .col-lg-4.mx-auto
+        img(src='@/assets/curso/t1/f39.svg' alt='Computador portátil')
+    h3 Antenas
+    .row.align-items-start.justify-content-between.mb-4
+      .col-lg-6
+        p Una antena es un sistema conductor metálico con capacidad de radiar y recibir ondas electromagnéticas del espacio, estos dispositivos adaptan ondas guiadas desde conductores o guías al espacio libre. En la siguiente figura se puede ver un ejemplo.
+        .titulo-quinto.color-acento-contenido
+          h4 Representación de una antena
+        img(src='@/assets/curso/t1/f40.svg' alt='Representación de una antena').mb-5
+        p Existen varios tipos de antenas, entre ellos:
+        ul.lista-ul--separador
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p <b>Direccionales:</b> aquellas que orientan la señal en una determinada dirección, con un haz estrecho de largo alcance.
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p <b>Omnidireccionales:</b> este tipo de antenas radian la señal con un haz amplio, de corto alcance y dirigido hacia todas direcciones.
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p <b>Sectoriales:</b> radian la señal con un haz más amplio que las direccionales, se consideran la unión de una antena omni y de una direccional.
+      .col-lg-6
+        p La ganancia de una antena es la relación entre la densidad de potencia radiada en una dirección y la densidad de potencia que radia una antena isotrópica, en la misma distancia y potencia entregadas a la antena. La antena isotrópica es una antena puntual que no se puede realizar en la práctica y que radia de igual manera en todas las direcciones, la ganancia se mide en dBi (decibeles isotrópicos).
+        p A continuación, puede ver un ejemplo de antena isotrópica.
+        .titulo-quinto.color-acento-contenido
+          h4 Representación de una antena
+        .col-lg-5.mx-auto
+          img(src='@/assets/curso/t1/f41.svg' alt='Antena isotrópica').mb-5
+        p La pérdida de la señal puede ser ocasionada por varios motivos, entre los cuales se puede enumerar los siguientes: 
+        ul.lista-ul--separador
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p Cable o guía de onda roto o desconectado.
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p El equipo de transmisión o amplificador de la señal no envía la potencia por daño o se encuentra apagado.
+          li 
+            i.fas.fa-play.texto-acento-contenido.me-4
+            p Antena descompuesta, rota o deteriorada.
+    
+    PasosA.color-primario.mb-5(tipo="n")
+      .row
+        img(src='@/assets/curso/t1/f42.svg' alt='paso 1').figpasos
+        .h3 Paso 1
+        p Conectar el adaptador de red USB a un puerto USB que esté disponible, sin necesidad de apagar el computador.
+      .row
+        img(src='@/assets/curso/t1/f43.svg' alt='paso 2').figpasod
+        .h3 Paso 2
+        p Encender el computador e instalar los controladores (drivers) de la tarjeta de red. Si el sistema operativo es Windows, este reconocerá el hardware recién agregado y abrirá una ventana de diálogo «nuevo hardware encontrado», el cual se debe completar. Luego, insertar el CD de configuración y seguir el asistente para terminar la instalación. El software/drivers de la tarjeta de red USB se puede descargar desde el sitio web del fabricante.
+      .row
+        img(src='@/assets/curso/t1/f44.svg' alt='paso 3').figpasoi
+        .h3 Paso 3
+        p Una vez que la tarjeta de red se ha instalado con éxito se debe establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o gateway, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
+      .row
+        img(src='@/assets/curso/t1/f45.svg' alt='paso 4').figpasoe
+        .h3 Paso 4
+        p Reiniciar el equipo si es necesario o en su defecto verificar si el adaptador de red está listo para su uso.
+    h3 Instalación del <b>router</b>
+    p Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables patch cord hacia los dispositivos cableados y red WAN, donde se debe colocar el cable patch cord de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
+    p En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video
 
 </template>
 

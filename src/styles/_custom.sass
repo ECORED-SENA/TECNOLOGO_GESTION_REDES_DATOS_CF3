@@ -15,3 +15,69 @@
 
 .fondo-casi-blanco
   background-color: #fafafa !important
+
+$blanco: #FFFFFF
+$azulClarisimo: #d2e6ee
+
+
+$g1: $blanco 0%, $azulClarisimo 100%
+
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.pasos-a__circle
+  display: none
+  @include gradient(180deg,$g1)
+  width: 5.75rem !important
+  height: 4rem
+  /*.h2
+    color: $color-primario !important
+    top: 50%
+    left: 50%
+    transform-origin: center
+    position: relative*/
+
+//@media screen and ( min-width: $bp-min-xl )
+
+.figpasos
+  width: 6.5rem
+  margin-bottom: -3.5rem !important
+  position: relative
+  left: -6rem
+  //top: 1rem
+  z-index: 2
+  float: left
+  transform-origin: center
+.figpasod
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: 100% //5rem
+  //top: calc(50% + 3.5rem)
+  z-index: 2
+  transform-origin: center
+.figpasoi
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: -6rem
+  //top: calc(50% - 3.75rem)
+  z-index: 2
+  float: left
+  transform-origin: center
+.figpasoe
+  width: 6.5rem
+  margin-bottom: -3.5rem
+  position: relative
+  left: 100% //5rem
+  //top: 1rem
+  z-index: 2
+  transform-origin: center
+
+@media screen and ( min-width: $bp-min-lg )
+  .figpasod, .figpasoi
+    position: relative
+    top: 75% !important
