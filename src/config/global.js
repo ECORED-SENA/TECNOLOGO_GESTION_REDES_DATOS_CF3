@@ -169,49 +169,39 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
+        nombre: 'Carlos Mauricio Tovar Artunduaga',
+        cargo: 'Experto temático',
+        centro: 'Centro de Servicios y Gestión Empresarial',
+        regional: 'Regional Antioquia',
+      },
+      {
+        nombre: 'Jorge Eliécer Loaiza Muñoz',
+        cargo: 'Experto temático',
+        centro: 'Centro de Diseño e Innovación Tecnológica Industrial',
+        regional: 'Regional Antioquia ',
+      },
+      {
+        nombre: 'Claudia López Arboleda',
         cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        centro: 'Centro de Teleinformática y Producción Industrial.',
+        regional: 'Regional Cauca',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología.',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria y la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -253,134 +243,137 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Andreu, J. (2011). Redes inalámbricas (servicios en red). Editex.',
+    },
+    {
+      referencia:
+        'Cisco Networking Academy. (s.f.). Networking CCNA: Switching, Routing, and Wireless Essentials. Cisco.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Jiménez, J. (2020). Cómo configurar el reenvío de puertos en Windows 10. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.redeszone.net/tutoriales/configuracion-puertos/configurar-reenvio-puertos-windows/',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Jiménez, J. (2018).  Cómo crear una red wifi para invitados fácilmente en nuestra casa.',
+      link: 'https://www.redeszone.net/2018/12/24/crear-red-wifi-invitados/',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Linksys. (s.f.). ¿Qué es un punto de acceso y en qué se diferencia de un extensor de red?',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.linksys.com/es/r/qu%C3%A9-es-un-extensor-de-red/qu%C3%A9-es-un-punto-de-acceso/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'López, A. (2021). Control parental: todo lo que tienes que saber y cómo llevarlo a cabo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.redeszone.net/tutoriales/seguridad/control-parental-que-es-herramientas/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Stallings, W., Tanenbaum, A., Fall, K. R., & Stevens, W. R. (2000). Comunicaciones y redes de computadores. 6ª edición. Prentice-Hall.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Adaptador de red',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Dispositivo de hardware que se inserta en la estación de trabajo de una red y le permite comunicarse con otros elementos unidos a esta red. ',
     },
     {
-      termino: 'Suftware',
+      termino: 'Capa de aplicación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Capa 7 del modelo OSI que proporciona autenticación, privacidad y restricción de información a los usuarios.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Capa de enlace de datos',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Capa 2 del modelo OSI que soporta la capa física (capa 1), proporcionando direccionamiento, control de errores y sincronización a un dispositivo físico.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Capa de presentación',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Capa 6 del modelo OSI que administra la conversación de la información entrante y saliente de un formato de datos a otro.',
     },
     {
-      termino: 'Moda',
+      termino: 'Capa de red',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Capa 3 del modelo OSI que define la manera como se enruta la información a una dirección destino.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Capa de sesión',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Capa 5 del modelo OSI que inicia y termina conversaciones, intercambios y diálogos entre aplicaciones a través de la red.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Capa de transporte',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Capa 4 del modelo OSI que proporciona control de un extremo a otro para transferencia de la información a través de la red.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Capa física',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Capa 1 del modelo OSI que define la manera como la corriente eléctrica de bits se transporta a través del hardware y los dispositivos mecánicos de la red.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Datagrama',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Agrupamiento lógico de información enviada como unidad de capa de red a través de un medio de transmisión sin establecer previamente un circuito virtual. Los datagramas IP son las unidades principales de información de Internet. Los términos trama, mensaje, paquete y segmento también se usan para describir agrupamientos de información lógica en las diversas capas del modelo de referencia OSI y en varios círculos tecnológicos.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Dirección IP (protocolo de Internet)',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la dirección de red o lógica de un nodo. Está compuesta por cuatro números de ocho bits (cada uno de ellos llamado octeto) que se combinan para identificar no solo la estación de trabajo o nodo, sino también su red. La dirección IP identifica una estación de trabajo con la LAN, WAN e Internet.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'DNS',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Sistema de nombre de dominios. Un sistema de Internet que resuelve los nombres de dominios en direcciones IP.',
+    },
+    {
+      termino: 'Enrutador',
+      significado:
+        'Dispositivo de red que dirige o enruta paquetes a través de las redes. Un enrutador funciona con una dirección de mensajes IP, a fin de determinar la mejor ruta hacia su destino.',
+    },
+    {
+      termino: 'Enrutamiento',
+      significado:
+        'Proceso utilizado para determinar la mejor ruta y hacer avanzar la información a lo largo de esa ruta, a partir de una red fuente o segmento de red hacia una dirección de red de destino.',
+    },
+    {
+      termino: 'Host',
+      significado:
+        'Sistema informático en una red. Similar al término nodo, salvo que host normalmente implica un computador, mientras que nodo generalmente se aplica a cualquier sistema de red, incluyendo servidores de acceso y el router.',
+    },
+    {
+      termino: 'Modelo OSI',
+      significado:
+        'Modelo de referencia de interconexión de sistemas abiertos, un estándar que define las diversas funciones denominadas capas, que un paquete de red transmite al trasladarse desde una fuente hasta su destino. El modelo OSI de siete capas se aplica tanto a las redes locales como a las extensas, entre ellas Internet.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Cisco Networking Academy. (s.f.). Networking CCNA: Switching, Routing, and Wireless Essentials. Cisco.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+      texto: 'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      descarga: 'https://www.xirio-online.com/web/help/es/index.htm',
     },
   ],
 }
