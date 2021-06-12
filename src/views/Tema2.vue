@@ -85,7 +85,7 @@
     p La autenticación de sistema abierto consta de dos comunicaciones:
     .row.align-items-center.mb-4
       .col-lg-6
-        img(src='@/assets/curso/t2/f6_5.svg' alt='En primer lugar, se envía una solicitud de autenticación desde el dispositivo móvil que contiene el ID de la estación (normalmente la dirección MAC). A continuación, una respuesta de autenticación del PA/enrutador con un mensaje de éxito o de fallo.')
+        img(src='@/assets/curso/t2/f6_5.svg' alt='En primer lugar, se envía una solicitud de autenticación desde el dispositivo móvil que contiene el ID de la estación (normalmente la dirección MAC). A continuación, una respuesta de autenticación del PA/enrutador con un mensaje de éxito o de fallo.').mb-4
         p Con la autenticación de clave compartida o frase de contraseña se configura manualmente tanto en el dispositivo móvil como en el PA/enrutador.
       .col-lg-4.mx-auto
         img(src='@/assets/curso/t2/f7.svg' alt='Personas conectadas a dispositivos')
@@ -94,7 +94,7 @@
       h2 2.2.	Seguridad, <i>firewall</i>, filtros, aplicaciones
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
-        .col-lg-3.mb-4.mb-lg-0
+        .col-lg-4.mb-4.mb-lg-0
           img(src='@/assets/curso/t2/f8.svg' alt='ilustración servidores')
         .col-lg-8
           .bloque-texto-a__texto.p-5

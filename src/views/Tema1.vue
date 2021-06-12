@@ -151,7 +151,7 @@
     .separador
     #t_1_5.titulo-segundo
       h2 1.5 Modos de operación
-    .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-3.mb-4.mb-lg-0
           img(src='@/assets/curso/t1/f14.svg' alt='Imagen 4 computadores')
@@ -171,7 +171,7 @@
       h4 Ventajas y desventajas modo ad-hoc
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Leyenda de la tabla
+        caption
         thead
           tr
             th.texto-acento-contenido Ventajas
@@ -203,7 +203,7 @@
       h4 Tipos de infraestructuras inalámbricas BSS
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Tipos de infraestructuras inalámbricas BSS
+        caption
         thead
           tr
             th.texto-acento-contenido Tipo
@@ -225,7 +225,7 @@
     #t_1_6.titulo-segundo
       h2 1.6 Tecnologías de redes inalámbricas
     p Actualmente existen dos tipos de redes inalámbricas, para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por sus siglas en inglés (Global Positioning System), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
-    .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-3.mb-4.mb-lg-0
           img(src='@/assets/curso/t1/f21.svg' alt='Ilustración redes inalámbricas')
@@ -482,7 +482,7 @@
     .titulo-quinto.color-acento-contenido
       h4 Funcionamiento Servidor NAT
     .col-lg-10.mx-auto.mb-4
-      img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT')
+      img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT').mb-4
       figcaption Nota. Página web Profesional review (s.f.).
     h3 Modos de funcionamiento para NAT
     .tarjeta-avatar-b.mb-5
@@ -509,7 +509,7 @@
         .p-4
           .h2 Solapamiento
           p para evitar el conflicto de direcciones, si hay una dirección IP privada de una red es igual a una dirección IP pública que está en uso, el router reemplaza dicha dirección IP por otra.
-    p De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
+    p.mb-5 De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
     .titulo-quinto.color-acento-contenido
       h4 Ventajas y desventajas del Servidor NAT
     .tabla-a.color-acento-botones.mb-5 
