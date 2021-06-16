@@ -6,6 +6,20 @@
       .titulo-principal__numero
         span 1
       h1 Introducción a las redes inalámbricas
+    .row.justify-content-between.align-items-center.mb-4
+      .col-lg-9
+        p Una red inalámbrica es la red que no emplea cables para transmitir la información, utilizando estándares especialmente de la <b>IEEE con siglas en inglés (Institute of Electronics and Electrical Engineers)</b>.
+        p El primer ejemplo de comunicación sin cables fue en 1880, en este año Graham Bell y Summer Tainter inventaron el fotófono, que permitía transmitir sonido por medio de una emisión de luz, luego en 1888 el físico alemán Rudolf Hertz descubrió la propagación de las ondas electromagnéticas, así, seis años después, las ondas de radio ya eran un medio de comunicación. Se menciona que en 1899 el italiano Guillermo Marconi logró establecer comunicaciones mediante señales inalámbricas a través del canal de la Mancha, entre las ciudades de Dover y Wilmereux.
+      .col-lg-3
+        img(src="@/assets/curso/i-f1.svg", alt="Imagen alusiva a redes").p-4
+    .row.justify-content-between.align-items-center.mb-4
+      .col-lg-3
+        img(src="@/assets/curso/i-f2.svg", alt="Imagen alusiva a redes").p-4
+      .col-lg-9
+        p En 1907 se comunicaron los primeros mensajes completos a través del Atlántico. Otro dato a tener en cuenta sobre el año 1971 es que un grupo de investigadores bajo la dirección de Norman Abramson, de la Universidad de Hawái, fueron pioneros con el sistema de conmutación de paquetes mediante una red de comunicación por radio llamada ALOHA. Se puede describir que esta fue la primera WLAN, estaba formada por siete computadores situados en distintas islas que se podían comunicar por medio de un servidor. De ahí nació lo que hoy en día se conoce como wifi, en 1997 sale al mercado gracias a la creación del comité 802.11, en el que se dio paso a la estandarización IEEE 802.11 para redes de área local inalámbricas (WLAN).
+    .cajon.color-acento-contenido.p-4.mb-4
+      p En relación con la elaboración del componente es importante especificar que se abordaron varios autores conocidos en el campo de las redes inalámbricas; se referencian en la bibliografía aquellos de quienes se tomaron los conceptos y ejemplos; respetando al igual que ellos, la recopilación y producción de material para el uso en educación. Es preciso señalar que el conocimiento es social y, por lo tanto, es para usarlo; cuando se investiga especialmente en el campo de la educación se busca aportar a la formación de quienes necesitan adquirir el conocimiento. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de las redes de datos.
+    .separador
     #t_1_1.titulo-segundo
       h2 1.1 Clasificación de redes inalámbricas
     p Según Andreu (2011) las redes inalámbricas se clasifican en los siguientes grupos:
@@ -38,7 +52,7 @@
           .col-md-6.mb-4.mb-md-0
             h5 Redes inalámbricas de área metropolitana o WMAN
             p (Wireless Metropolitan Area Network). Tienen como función cubrir una ciudad, utilizando protocolo LMDS (Local Multipoint Distribution Service) o MMDS (Multichannel Multipoint Distribution Service).
-      .py-3.py-md-4(titulo="Red WBAN")
+      .py-3.py-md-4(titulo="Red WWAN")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             img(src="@/assets/curso/t1/f5.svg", alt="Ilustración red WWAN").p-4
@@ -158,10 +172,10 @@
         .col-lg-9
           .bloque-texto-a__texto.p-5
             p Para el estándar 802.11 es importante tener en cuenta dos modos fundamentales de uso para este tipo de redes, el modo ad-hoc y el modo infraestructura BSS, los cuales se detallarán a continuación.
-    .row.align-items-center.justify-content-between.mb-4
+    .row.align-items-center.justify-content-between.mb-5
       .col-lg-6
         h3 Modo ad-hoc.
-        p Se conoce también como punto a punto, en este método los clientes inalámbricos establecen comunicación directa entre sí, por tanto, no es necesario un punto de acceso o AP; cada terminal inalámbrica en una red ad- hoc configura el adaptador inalámbrico en este modo, y debe usar el mismo SSID y canal dentro de la red. Este método limita el número de dispositivos, y si estos aumentan, el rendimiento de la red disminuye, además la conexión ad-hoc es temporal entre dispositivos para un mismo fin, por ejemplo, compartir impresoras, archivos o juegos en la red.
+        p Se conoce también como punto a punto, en este método los clientes inalámbricos establecen comunicación directa entre sí, por tanto, no es necesario un punto de acceso o AP; cada terminal inalámbrica en una red ad-hoc configura el adaptador inalámbrico en este modo, y debe usar el mismo SSID y canal dentro de la red. Este método limita el número de dispositivos, y si estos aumentan, el rendimiento de la red disminuye, además la conexión ad-hoc es temporal entre dispositivos para un mismo fin, por ejemplo, compartir impresoras, archivos o juegos en la red.
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 La conexión de los equipos se realiza por medio de los adaptadores de red sin necesidad de un punto de acceso. Una infraestructura ad-hoc tendría mínimo 2 computadores, tarjetas de red inalámbrica y, de hecho, los drivers de tarjetas de red. 
         p De manera que en la tabla que aparece a continuación puede consultar tanto las ventajas como desventajas del modo ad-hoc.
@@ -174,8 +188,8 @@
         caption
         thead
           tr
-            th.texto-acento-contenido Ventajas
-            th.texto-acento-contenido Desventajas
+            th.texto-acento-contenido.text-center Ventajas
+            th.texto-acento-contenido.text-center Desventajas
         tbody
           tr
             td No necesita conexión a Internet.
@@ -192,12 +206,12 @@
           tr
             td La configuración es mínima.
             td 
-    h3 Modo infraestructura BSS.
-    .row.align-items-center.justify-content-between.mb-4
+    h3 Modo infraestructura BSS
+    .row.align-items-center.justify-content-between.mb-5
       .col-lg-6
         img(src='@/assets/curso/t1/f16.svg' alt='Ilustración modo BSS')
       .col-lg-6
-        p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS – Basic Service Set) y las denominan también cliente – servidor o maestro esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red Ethernet cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
+        p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS – Basic Service Set) y las denominan también cliente – servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red Ethernet cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
     .titulo-quinto.color-acento-contenido
       h4 Tipos de infraestructuras inalámbricas BSS
@@ -206,7 +220,7 @@
         caption
         thead
           tr
-            th.texto-acento-contenido Tipo
+            th.texto-acento-contenido.text-center Tipo
             th.texto-acento-contenido Organización
         tbody
           tr
@@ -231,7 +245,7 @@
           img(src='@/assets/curso/t1/f21.svg' alt='Ilustración redes inalámbricas')
         .col-lg-9
           .bloque-texto-a__texto.p-5
-            p Para interiores este estándar no sirve, pues tantas paredes, techos y demás obstáculos apantallan la señal y el receptor no puede sincronizarse a algún satélite, impidiendo dar su localización, entonces, estas tecnologías a utilizar dependen de los requisitos necesarios para acceder a una u otra aplicación o servicio. También es importante tener presente para la tecnología a escoger, el consumo de energía, precio, ancho de banda y velocidad, entre otros factores. En la siguiente tabla se describen brevemente las diferentes tecnologías utilizadas para redes inalámbricas.
+            p Para interiores este estándar no sirve, pues tantas paredes, techos y demás obstáculos apantallan la señal y el receptor no puede sincronizarse a algún satélite, impidiendo dar su localización, entonces, estas tecnologías a utilizar dependen de los requisitos necesarios para acceder a una u otra aplicación o servicio. También es importante tener presente para la tecnología a escoger, el consumo de energía, precio, ancho de banda y velocidad, entre otros factores. En el siguiente gráfico se describen brevemente las diferentes tecnologías utilizadas para redes inalámbricas.
     PasosA.color-primario.mb-5(tipo="n")
       .row
         img(src='@/assets/curso/iconos/1.svg' alt='1').figpasos
@@ -260,7 +274,7 @@
       .row
         img(src='@/assets/curso/iconos/7.svg' alt='7').figpasoi
         .h3 OBEX
-        p Abreviatura de Object EXchange o intercambio de datos, este protocolo fue creado para facilitar el intercambio información binaria entre dispositivos.
+        p Abreviatura de Object EXchange o intercambio de datos, este protocolo fue creado para facilitar el intercambio de información binaria entre dispositivos.
       .row
         img(src='@/assets/curso/iconos/8.svg' alt='8').figpasod
         .h3 RadioRa
@@ -280,7 +294,7 @@
       .row
         img(src='@/assets/curso/iconos/12.svg' alt='12').figpasod
         .h3 Wi-Max
-        p Tecnología para red inalámbrica de área metropolitana con un alcance de 50 Km, velocidad de transmisión de hasta 70 Mbps, basada en el estándar 802.16, que opera en el rango de frecuencias de 10 GHz. a 66 GHz con línea de vista, con el estándar 802.16a, opera entre los 2 y 11 GHz. y sin línea de vista, puede usarse para receptores en vehículos móviles siempre que no superen 100 Km/h de velocidad, se creó como competencia para la tecnología xDSL y el acceso por cable módem.
+        p Tecnología para red inalámbrica de área metropolitana con un alcance de 50 Km, velocidad de transmisión de hasta 70 Mbps, basada en el estándar 802.16, que opera en el rango de frecuencias de 10 GHz a 66 GHz con línea de vista, con el estándar 802.16a, opera entre los 2 y 11 GHz y sin línea de vista, puede usarse para receptores en vehículos móviles siempre que no superen 100 Km/h de velocidad, se creó como competencia para la tecnología xDSL y el acceso por cable módem.
       .row
         img(src='@/assets/curso/iconos/13.svg' alt='13').figpasoi
         .h3 Wireless USB
@@ -303,14 +317,14 @@
       .tarjeta.fondo-casi-blanco
         .p-4
           .h2 Radio cognitiva completa ("radio de mitola")
-          p Aquí cualquier aspecto que se observe en un nodo inalámbrico será tenido en cuenta para la toma decisiones en el cambio de parámetros de transmisión y/o recepción.
+          p Aquí cualquier aspecto que se observe en un nodo inalámbrico será tenido en cuenta para la toma de decisiones en el cambio de parámetros de transmisión y/o recepción.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f23.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
           .h2 Radio cognitiva detectora del espectro
           p Para este caso, las decisiones se toman basadas solo en el estado del espectro de radiofrecuencia.
-    p Los dos tipos más usados de radio cognitiva son:
+    p Igualmente, de acuerdo con las bandas del espectro disponibles para la radio cognitiva se tiene también:
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f24.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
@@ -326,9 +340,9 @@
     .separador
     #t_1_8.titulo-segundo
       h2 1.8 Diseño e instalación de red
-    p Para el diseño de una red inalámbrica no solo se debe realizar la distribución de los dispositivos activos y pasivos, sino que es pertinente definir protocolos, estándares, normas y demás regulaciones necesarias para cumplir con los requerimientos establecidos. En la planeación de un diseño de red se debe tener en cuenta varios aspectos, entre los cuales se nombran los siguientes pasos que ayudan a optimizar el diseño de la red solicitada:
-    TabsC.color-acento-contenido.mb-4
-      .py-3.py-md-4(titulo="Recolección")
+    p Para el diseño de una red inalámbrica no solo se debe realizar la distribución de los dispositivos activos y pasivos, sino que es pertinente definir protocolos, estándares, normas y demás regulaciones necesarias para cumplir con los requerimientos establecidos. En la planeación de un diseño de red se deben tener en cuenta varios aspectos, entre los cuales se nombran los siguientes pasos que ayudan a optimizar el diseño de la red solicitada:
+    TabsC.color-acento-contenido.mb-5
+      .py-3.py-md-4(titulo="Recolección de información")
         .row.align-items-center
           .col-lg-6
             img(src="@/assets/curso/t1/f26.svg", alt="Figura relacionada").py-4
@@ -406,7 +420,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f30.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 e)	Diseño definitivo: 
+            .h2 Diseño definitivo: 
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -421,7 +435,7 @@
       figcaption Video
     h3 Topología de la red
     p Escoger la topología inicial de la red depende esencialmente de varios aspectos como:
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-5
       .col-lg-5.mx-auto
         img(src="@/assets/curso/t1/f31.svg", alt="Persona manejando servidores").py-4
       .col-lg-6
@@ -467,7 +481,7 @@
           p.mb-0 El DHCP se desarrolló como solución para redes de gran envergadura y computadores portátiles, por ello complementa a BOOTP, entre otras cosas, por su capacidad para asignar automáticamente direcciones de red reutilizables y por la existencia de posibilidades de configuración adicionales.
       .col-lg-5.mx-auto
         img(src='@/assets/curso/t1/f32.svg' alt='Wifi')
-    p Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración proxy por WPAD (Web Proxy Auto-Discovery Protocol) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
+    p.mb-5 Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración proxy por WPAD (Web Proxy Auto-Discovery Protocol) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
     h3 El servidor DHCP informa al Domain Name System
     p El servidor DHCP es el encargado de enviar la información al DNS al asignar una nueva dirección IP, la cual se asocia con su nombre de dominio correspondiente. El DHCP no es muy seguro, pues es de fácil manipulación por parte de atacantes a la red que desean apropiarse de la información sensible de sus usuarios.
     h3 Servidor NAT
@@ -477,11 +491,12 @@
           img(src='@/assets/curso/t1/f33.svg' alt='Persona conectando servidores')
         .col-lg-9
           .bloque-texto-a__texto.p-5
-            p Este servidor surge a raíz del crecimiento exponencial de terminales que día a día acceden a Internet, se usa para Traducción de Direcciones de Red con su sigla en inglés NAT o Network Address Translation, y con ello, permitir que los dispositivos de una red utilicen un rango de direcciones especiales (IP privadas) y para conectarse a Internet utilice una dirección IP única (IP pública). Se trata de una mejora o actualización en la que las redes grandes solo usarían una dirección IP y no gran cantidad de ellas.
-            p.mb-0 En la siguiente figura podrá observar el funcionamiento de este Servidor.
+            p Este servidor surge a raíz del crecimiento exponencial de terminales que día a día acceden a Internet, se usa para Traducción de Direcciones de Red con su sigla en inglés NAT o <i>Network Address Translation</i>, y con ello, permitir que los dispositivos de una red utilicen un rango de direcciones especiales (IP privadas) y para conectarse a Internet utilicen una dirección IP única (IP pública). Se trata de una mejora o actualización en la que las redes grandes solo usarían una dirección IP y no gran cantidad de ellas.
+            br
+            p.mb-0 En la siguiente figura podrá observar el funcionamiento de este servidor.
     .titulo-quinto.color-acento-contenido
       h4 Funcionamiento Servidor NAT
-    .col-lg-10.mx-auto.mb-4
+    .col-lg-10.mx-auto.mb-5
       img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT').mb-4
       figcaption Nota. Página web Profesional review (s.f.).
     h3 Modos de funcionamiento para NAT
@@ -508,16 +523,15 @@
       .tarjeta.fondo-casi-blanco
         .p-4
           .h2 Solapamiento
-          p para evitar el conflicto de direcciones, si hay una dirección IP privada de una red es igual a una dirección IP pública que está en uso, el router reemplaza dicha dirección IP por otra.
+          p Para evitar el conflicto de direcciones, si hay una dirección IP privada de una red es igual a una dirección IP pública que está en uso, el router reemplaza dicha dirección IP por otra.
     p.mb-5 De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
     .titulo-quinto.color-acento-contenido
       h4 Ventajas y desventajas del Servidor NAT
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Ventajas y desventajas del Servidor NAT
         thead
           tr
-            th.texto-acento-contenido Ventajas
+            th.texto-acento-contenido.text-center Ventajas
             th.texto-acento-contenido Desventajas
         tbody
           tr
@@ -559,7 +573,7 @@
         p La ganancia de una antena es la relación entre la densidad de potencia radiada en una dirección y la densidad de potencia que radia una antena isotrópica, en la misma distancia y potencia entregadas a la antena. La antena isotrópica es una antena puntual que no se puede realizar en la práctica y que radia de igual manera en todas las direcciones, la ganancia se mide en dBi (decibeles isotrópicos).
         p A continuación, puede ver un ejemplo de antena isotrópica.
         .titulo-quinto.color-acento-contenido
-          h4 Representación de una antena
+          h4 Antena isotrópica
         .col-lg-5.mx-auto
           img(src='@/assets/curso/t1/f41.svg' alt='Antena isotrópica').mb-5
         p La pérdida de la señal puede ser ocasionada por varios motivos, entre los cuales se puede enumerar los siguientes: 
@@ -573,7 +587,9 @@
           li 
             i.fas.fa-play.texto-acento-contenido.me-4
             p Antena descompuesta, rota o deteriorada.
-    
+    h3 Instalación de los adaptadores y el router.
+    p Un adaptador o tarjeta de red se requiere para conectar una terminal a Internet. La mayoría de las computadoras tienen conexión de red inalámbrica incorporada. Los equipos más antiguos pueden necesitar que se les adicione un adaptador de red para tener acceso a lnternet.
+    h4 Pasos para instalar el adaptador de red USB:
     PasosA.color-primario.mb-5(tipo="n")
       .row
         img(src='@/assets/curso/t1/f42.svg' alt='paso 1').figpasos
@@ -586,7 +602,7 @@
       .row
         img(src='@/assets/curso/t1/f44.svg' alt='paso 3').figpasoi
         .h3 Paso 3
-        p Una vez que la tarjeta de red se ha instalado con éxito se debe establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o gateway, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
+        p Una vez que la tarjeta de red se ha instalado con éxito se deben establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o gateway, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
       .row
         img(src='@/assets/curso/t1/f45.svg' alt='paso 4').figpasoe
         .h3 Paso 4

@@ -13,12 +13,12 @@ export default {
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
-      {
+      /*{
         nombreRuta: 'introduccion',
         icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
@@ -80,7 +80,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '2	Configuración de la red',
+        titulo: 'Configuración de la red',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -123,12 +123,12 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /*{
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -230,11 +230,17 @@ export default {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
+        cargo: 'Validación de diseño y contenido',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -277,12 +283,11 @@ export default {
     {
       referencia:
         'Stallings, W., Tanenbaum, A., Fall, K. R., & Stevens, W. R. (2000). Comunicaciones y redes de computadores. 6ª edición. Prentice-Hall.',
-      link: '',
     },
     {
       referencia:
         'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO.',
-      link: '',
+      link: 'https://www.xirio-online.com/web/help/es/index.htm',
     },
   ],
   glosario: [
@@ -371,9 +376,9 @@ export default {
         'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
     {
-      texto: 'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO',
+      texto: 'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO.',
       tipo: 'Página web',
-      descarga: 'https://www.xirio-online.com/web/help/es/index.htm',
+      link: 'https://www.xirio-online.com/web/help/es/index.htm',
     },
   ],
 }

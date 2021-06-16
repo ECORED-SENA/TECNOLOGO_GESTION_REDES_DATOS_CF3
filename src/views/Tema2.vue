@@ -9,7 +9,7 @@
     p A continuación, se describen los principales dispositivos que permiten la configuración de la red.
     .separador
     #t_2_1.titulo-segundo
-      h2 2.1. Configuración del router TPLINK con referencia TL-MR3220
+      h2 2.1 Configuración del router TPLINK con referencia TL-MR3220
     p Una interfaz es una herramienta que permite dar acceso directo a la configuración, sistema operativo y demás funcionalidades de cada dispositivo, generalmente se trata de una interfaz gráfica que por medio de un monitor, pantalla o terminal que da acceso a una serie de menús e iconos a utilizar por parte del usuario en la interacción con los dispositivos de la red que necesitan ser configurados o actualizados para su correcto funcionamiento dentro del sistema. Algunas de las características que posee una interfaz son:
     .row.align-items-center.p-5
       .col-lg-4.mx-auto
@@ -62,8 +62,8 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
-    h3 Prottección de la red inalámbrica
-    .row.align-items-center.justify-content-between.mb-4
+    h3 Protección de la red inalámbrica
+    .row.align-items-center.justify-content-between.mb-5
       .col-lg-6
         img(src='@/assets/curso/t2/f6.svg' alt='Personas conectadas a dispositivos')
       .col-lg-6
@@ -91,14 +91,14 @@
         img(src='@/assets/curso/t2/f7.svg' alt='Personas conectadas a dispositivos')
     .separador
     #t_2_2.titulo-segundo
-      h2 2.2.	Seguridad, <i>firewall</i>, filtros, aplicaciones
+      h2 2.2	Seguridad, <i>firewall</i>, filtros, aplicaciones
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-4.mb-4.mb-lg-0
           img(src='@/assets/curso/t2/f8.svg' alt='ilustración servidores')
         .col-lg-8
           .bloque-texto-a__texto.p-5
-            p Se debe tener en cuenta que son muchos los ataques que pueden existir para una red inalámbrica y gran cantidad de puertos se deben bloquear para minimizar estos riesgos, con la ayuda de normativas, protocolos, estándares y demás medidas que sean necesarias. Un firewall o cortafuegos permite proteger un dispositivo o una red de completa de las intrusiones que provienen de una red exterior como el caso de Internet, usar un firewall también permite filtrar los paquetes de datos que circulan por la red, además un firewall puede ser de tipo software o de tipo hardware.
+            p Se debe tener en cuenta que son muchos los ataques que pueden existir para una red inalámbrica y gran cantidad de puertos se deben bloquear para minimizar estos riesgos, con la ayuda de normativas, protocolos, estándares y demás medidas que sean necesarias. Un firewall o cortafuegos permite proteger un dispositivo o una red completa de las intrusiones que provienen de una red exterior como el caso de Internet, usar un firewall también permite filtrar los paquetes de datos que circulan por la red, además un firewall puede ser de tipo software o de tipo hardware.
     .row.align-items-center.mb-4
       .col-lg-6
         p Un <i>firewall</i> funciona como una barrera entre Internet u otras redes públicas y los dispositivos. Todo el tipo de tráfico que no esté en la lista permitida por el firewall no entra ni sale de los dispositivos de la red, para ello contiene un conjunto de reglas predefinidas que permiten:
@@ -134,14 +134,14 @@
             li 
               i.fas.fa-play.texto-acento-contenido.me-4
               | Un firewall comercial incluye protecciones extra, más control sobre su configuración y funcionamiento.
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-5
       p.mb-0 Por el contrario, un <i>firewall</i> por <i>hardware</i> viene normalmente instalado en los router que se utilizan para acceder a Internet, por tanto, todos los dispositivos que se conecten a un <i>router</i> estarán protegidos por un <i>firewall</i> que está incluido en el <i>router</i>, como se muestra en la siguiente figura.
     SlyderC.mb-5(:datos="datosSlider1")
     p El acceso inalámbrico puede filtrarse también con el uso de direcciones MAC (Media Access Control) de los dispositivos inalámbricos que transmiten dentro del radio de su red, permitiendo o restringiendo el acceso de dispositivos inalámbricos específicos a la red inalámbrica.
-    p Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la siguiente figura.
+    p Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la figura <i>Seguridad wireless</i>.
     .separador
     #t_2_3.titulo-segundo
-      h2 2.3.	Características adicionales de las redes
+      h2 2.3	Características adicionales de las redes
     p Las redes inalámbricas tienen diversas características dependiendo del rango de frecuencias, el medio y la velocidad de transmisión, entre las cuales están:
     TabsC.color-acento-contenido.mb-4
       .py-3.py-md-4(titulo="Ondas de radio")
@@ -179,6 +179,8 @@
         .col-lg-8
           .bloque-texto-a__texto.p-5
             p En concreto, dentro de las características adicionales se encuentra el control parental que se realiza para impedir, o limitar el acceso al manejo de dispositivos destinados a la reproducción o recepción de imágenes e información de determinados contenidos para los menores de edad, determinando con exactitud los dispositivos que se deben bloquear o proteger. Dado que el acceso a Internet de los menores hoy en día es increíblemente fácil y cada vez se produce a edades más tempranas, debido a que se pone al alcance de los dispositivos multimedia como smartphones o tablets, es imprescindible una buena educación digital. Como segundo apoyo, el uso de filtros y herramientas de control parental que les protejan de sitios y contenidos inseguros e inapropiados para estas edades. Por lo tanto, servirá para limitar el acceso de los pequeños a cierto contenido en Internet, limitar el tiempo que pasan los pequeños navegando o intercambiando información por Internet, como se muestra en la siguiente figura.
+    .titulo-quinto.color-acento-contenido
+      h4 Configuración control parental
     img(src='@/assets/curso/imagenes/cp.png' alt='Imagen control parental')
     p Como se indicó, se puede modificar los DNS de un equipo para que se filtre la información a través de ellos y llegue de manera segura, pero como alternativa a ello, hay otros métodos para instaurar un sistema de control parental cuando se tienen computadores que usan Windows como sistema operativo.
     .cajon.color-acento-contenido.p-4.mb-4
@@ -204,15 +206,15 @@
       .col-lg-5.mx-auto
         img(src="@/assets/curso/t2/f18.svg", alt="Ilustración servidores").py-4
       .col-lg-7
-        p De la mano de este filtro se puede también controlar el dinero que gasta el menor desde su cuenta en la tienda   Microsoft, este tipo de cuentas son débito, se ingresa una cantidad en la cuenta del menor de la que él dispondrá para gastarla, tanto en la consola como en el computador, y en los contenidos que se haya permitido en los pasos previos que se han explicado, teniendo en cuenta la multitud de contenidos gratuitos este sistema de control parental también da la opción de restringir el tipo de transacciones.
+        p De la mano de este filtro se puede también controlar el dinero que gasta el menor desde su cuenta en la tienda   Microsoft, este tipo de cuentas son débito, se ingresa una cantidad en la cuenta del menor de la que él dispondrá para gastarla, tanto en la consola como en el computador, y en los contenidos que se hayan permitido en los pasos previos que se han explicado, teniendo en cuenta la multitud de contenidos gratuitos este sistema de control parental también da la opción de restringir el tipo de transacciones.
         .cajon.color-acento-contenido.p-4.mb-4
           p Sin duda si se dispone de un equipo con Windows 10, el control parental que ha desarrollado Microsoft es de lo mejor y más completo que se puede encontrar en el mercado, y de manera gratuita, ya que viene de serie con la licencia de Windows 10. Si no utiliza Windows 10 o quiere alternativas al control parental de Microsoft, la opción más clara es usar programas o aplicaciones específicamente diseñados para este fin, existe una herramienta para instalar en el computador que se llama Qustodio, está disponible tanto para Windows, MacOS, Android y iOS, dispone de dos versiones, una gratuita y otra de pago, ya que viene diseñada tanto para ámbitos familiares como escolares. 
     p Esta herramienta dará la posibilidad de controlar el tiempo de conexión del menor, filtros de contenido prohibido e inapropiado, incluso, cuenta con  algo que no todos los sistemas de control parental han tenido en cuenta, la restricción de palabras.
     .cajon.color-acento-contenido.p-4.mb-4
-      p.mb-0 Se puede personalizar filtros de contenido y ver la actividad del computador que se quiera, y para ampliar la versión de pago ofrece informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el smartphone del menor que podrá usar en cualquier momento para pedir ayuda.
+      p.mb-0 Se pueden personalizar filtros de contenido y ver la actividad del computador que se quiera, y para ampliar la versión de pago ofrece informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el smartphone del menor que podrá usar en cualquier momento para pedir ayuda.
     .separador
     #t_2_4.titulo-segundo
-      h2 2.4.	Red wifi para invitados
+      h2 2.4	Red wifi para invitados
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-4.mb-4.mb-lg-0
@@ -230,7 +232,7 @@
       p.mb-0 Pero seguro que, si se realiza una prueba de velocidad con una conexión ADSL en la que se tiene a toda la familia conectada y viendo videos de YouTube, los datos no son los que se desearían. En algunos modelos incluso se puede limitar el ancho de banda, por ejemplo, asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red wifi para invitados. De esta manera se puede crear una red wifi para invitados, una forma interesante para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
     .separador
     #t_2_5.titulo-segundo
-      h2 2.5.	Prioridad de medios
+      h2 2.5	Prioridad de medios
     p Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos, para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
     figure.mb-5
       .video
@@ -238,7 +240,7 @@
       figcaption Video
     .separador
     #t_2_6.titulo-segundo
-      h2 2.6.	Reenvío de puertos
+      h2 2.6	Reenvío de puertos
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-4.mb-4.mb-lg-0
@@ -246,6 +248,7 @@
         .col-lg-8
           .bloque-texto-a__texto.p-5
             p Es posible que una aplicación determinada o, por ejemplo, un juego en un momento concreto pida algo denominado reenvío de puertos, sin ese reenvío de puertos no podría haber conexión entre la aplicación o juego y el tráfico entrante o datos ingresados en Internet. No se puede hacer uso de determinadas funciones con las que cuenta un <i>software</i> determinado.
+            br
             p Este problema se puede solucionar si se configura el reenvío de puertos en Windows 10; es un proceso sencillo y simplemente hay que llevar a cabo una serie de pasos que se van a explicar en el siguiente video.
     figure.mb-5
       .video
