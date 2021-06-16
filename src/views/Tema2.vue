@@ -143,7 +143,7 @@
     #t_2_3.titulo-segundo
       h2 2.3	Características adicionales de las redes
     p Las redes inalámbricas tienen diversas características dependiendo del rango de frecuencias, el medio y la velocidad de transmisión, entre las cuales están:
-    TabsC.color-acento-contenido.mb-4
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Ondas de radio")
         .row.align-items-center
           .col-lg-4.mx-auto
