@@ -164,7 +164,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -183,13 +183,13 @@ export default {
       {
         nombre: 'Claudia López Arboleda',
         cargo: 'Experta temática',
-        centro: 'Centro de Teleinformática y Producción Industrial.',
+        centro: 'Centro de Teleinformática y Producción Industrial',
         regional: 'Regional Cauca',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología.',
+        centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
       },
       {
@@ -201,7 +201,7 @@ export default {
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Diseñadora y evaluadora instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -214,9 +214,9 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
         nombre: 'Jesús Antonio Vecino Valero',
@@ -226,7 +226,7 @@ export default {
       },
       {
         nombre: 'Walter Roa Serrano',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -241,7 +241,7 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -286,7 +286,7 @@ export default {
     },
     {
       referencia:
-        'XIRIO online. (s.f.) Planificación de redes de acceso. XIRIO.',
+        'XIRIO online. (s.f.). Planificación de redes de acceso. XIRIO.',
       link: 'https://www.xirio-online.com/web/help/es/index.htm',
     },
   ],

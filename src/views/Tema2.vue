@@ -273,7 +273,7 @@ export default {
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Seguridad Wireless',
+        titulo: 'Seguridad wireless',
         texto: '',
         imagen: require('@/assets/curso/imagenes/sw.png'),
         // leyendaImagen: 'Leyenda de la imagen',
