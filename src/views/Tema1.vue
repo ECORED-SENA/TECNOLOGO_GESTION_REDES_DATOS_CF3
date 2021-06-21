@@ -347,7 +347,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f26.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Recolección
+            .h2 Recolección de información
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -420,7 +420,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f30.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Diseño definitivo: 
+            .h2 Diseño definitivo
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
