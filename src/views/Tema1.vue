@@ -19,7 +19,6 @@
         p En 1907 se comunicaron los primeros mensajes completos a través del Atlántico. Otro dato a tener en cuenta sobre el año 1971 es que un grupo de investigadores bajo la dirección de Norman Abramson, de la Universidad de Hawái, fueron pioneros con el sistema de conmutación de paquetes mediante una red de comunicación por radio llamada ALOHA. Se puede describir que esta fue la primera WLAN, estaba formada por siete computadores situados en distintas islas que se podían comunicar por medio de un servidor. De ahí nació lo que hoy en día se conoce como wifi, en 1997 sale al mercado gracias a la creación del comité 802.11, en el que se dio paso a la estandarización IEEE 802.11 para redes de área local inalámbricas (WLAN).
     .cajon.color-acento-contenido.p-4.mb-4
       p En relación con la elaboración del componente es importante especificar que se abordaron varios autores conocidos en el campo de las redes inalámbricas; se referencian en la bibliografía aquellos de quienes se tomaron los conceptos y ejemplos; respetando al igual que ellos, la recopilación y producción de material para el uso en educación. Es preciso señalar que el conocimiento es social y, por lo tanto, es para usarlo; cuando se investiga especialmente en el campo de la educación se busca aportar a la formación de quienes necesitan adquirir el conocimiento. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de las redes de datos.
-    .separador
     #t_1_1.titulo-segundo
       h2 1.1 Clasificación de redes inalámbricas
     p Según Andreu (2011) las redes inalámbricas se clasifican en los siguientes grupos:
@@ -59,7 +58,7 @@
           .col-md-6.mb-4.mb-md-0
             h5 Redes inalámbricas de área extensa o WWAN
             p (Wireless Wide Area Network). Conocidas también como de área global o WGAN, tienen cobertura de una gran región, país o grupo de países, basadas en tecnología celular, y son consideradas como la evolución de las redes de voz.
-    .separador
+    .custom_hr
     #t_1_2.titulo-segundo
       h2 1.2 Funcionamiento de las redes inalámbricas
     .row.align-items-center.fondo-azul-clarito.p-5
@@ -75,7 +74,7 @@
           li 
             i.lista-ul__vineta
             p.mb-0 <b>Infraestructura (BSS).</b> Para este caso la conexión se hace utilizando un AP (punto de acceso), el cual permite que la red inalámbrica acceda la red cableada, dicho AP trabaja como puerta de entrada a la red inalámbrica con una cobertura determinada y en un lugar específico para los dispositivos que necesiten acceder.
-    .separador
+    .custom_hr
     #t_1_3.titulo-segundo
       h2 1.3 Ventajas y desventajas
     p De acuerdo con Andreu (2011) las principales ventajas de utilizar una red inalámbrica son:
@@ -128,7 +127,7 @@
             li 
               i.fas.fa-play.texto-acento-contenido.me-4
               | Poseen un menor ancho de banda que las redes que se unen mediante cables.
-    .separador
+    .custom_hr
     #t_1_4.titulo-segundo
       h2 1.4 Componentes de las redes inalámbricas
     p Se encuentran integradas por los siguientes dispositivos:
@@ -136,33 +135,33 @@
       img(src='@/assets/curso/t1/f9.svg' alt='Icono antena')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Antena
+          h3 Antena
           p Elemento que permite transmitir y recibir ondas de radio por medio de una comunicación natural como el aire o el espacio libre.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f10.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Punto de acceso
+          h3 Punto de acceso
           p Dispositivo de capa 2, por medio del cual las estaciones wireless pueden integrarse rápida y fácilmente a cualquier red cableada, actuando como núcleo de la red inalámbrica y puente de conexión entre redes inalámbricas y cableadas. El punto de acceso se conecta a un router, switch o hub con un cable Ethernet y radia la señal wifi en un área específica, como ejemplo, si desea habilitar el acceso wifi en el área de recepción de una empresa, pero no existe un router que pueda cubrirla, se instala un punto de acceso cerca de la recepción y se conecta con un cable hacia el salón de equipos donde está el servidor.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f11.svg' alt='Icono puente inalámbrico')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Bridge inalámbrico
+          h3 Bridge inalámbrico
           p Dispositivo que permite conectar dos o más redes ubicadas en diferentes edificios, proporcionando más velocidad de transmisión de datos, además conecta sitios difíciles de cablear, pisos no contiguos, instalaciones de campus de escuelas o empresas, etc.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f12.svg' alt='Icono enrutador inalábrico')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Router inalámbrico
+          h3 Router inalámbrico
           p Es el que permite la conexión de redes inalámbricas, enrutar los paquetes de datos hacia la red correcta de destino y facilita la conexión a la WLAN de dispositivos inalámbricos; es la tecnología de comunicación de ondas de radio que admite la conexión ADSL para el manejo de Internet de banda ancha y que se distribuya hacia otros computadores.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f13.svg' alt='Icono adaptador')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Adaptadores
+          h3 Adaptadores
           p Son tarjetas para expandir la capacidad de conexión, envían y reciben datos sin necesidad de cables en las redes WLAN, poseen una antena para la recepción y envío de datos, y están diseñados para algunos estándares de redes inalámbricas.
-    .separador
+    .custom_hr
     #t_1_5.titulo-segundo
       h2 1.5 Modos de operación
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -181,7 +180,7 @@
         p De manera que en la tabla que aparece a continuación puede consultar tanto las ventajas como desventajas del modo ad-hoc.
       .col-lg-6
         img(src='@/assets/curso/t1/f15.svg' alt='Ilustración modo ad-hoc')
-    .titulo-quinto.color-acento-contenido
+    .titulo-quinto.color-acento-contenido.pt-5
       h4 Ventajas y desventajas modo ad-hoc
     .tabla-a.color-acento-botones.mb-5 
       table
@@ -213,7 +212,7 @@
       .col-lg-6
         p Para las redes que trabajan con el estándar IEEE 802.11 el modo de infraestructura se conoce como Conjunto de Servicios Básicos (BSS – Basic Service Set) y las denominan también cliente – servidor o maestro - esclavo. Para este modo de infraestructura existe un dispositivo central que corresponde al punto de acceso o estación base, que generalmente se conecta a una red Ethernet cableada, y así los clientes inalámbricos pueden acceder a la red fija por medio del punto de acceso. En el proceso de interconexión de los dispositivos inalámbricos hacia los puntos de acceso se debe configurar con el mismo SSID, lo que garantiza optimizar la capacidad total de la red.
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
-    .titulo-quinto.color-acento-contenido
+    .titulo-quinto.color-acento-contenido.pt-5
       h4 Tipos de infraestructuras inalámbricas BSS
     .tabla-a.color-acento-botones.mb-5 
       table
@@ -235,7 +234,7 @@
           tr
             td.h4.text-center Malla
             td <img src='@/assets/curso/t1/f20.svg' alt='Figura relacionada'/>
-    .separador
+    .custom_hr
     #t_1_6.titulo-segundo
       h2 1.6 Tecnologías de redes inalámbricas
     p Actualmente existen dos tipos de redes inalámbricas, para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por sus siglas en inglés (Global Positioning System), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
@@ -249,65 +248,65 @@
     PasosA.color-primario.mb-5(tipo="n")
       .row
         img(src='@/assets/curso/iconos/1.svg' alt='1').figpasos
-        .h3 Bluetooth
+        h4 Bluetooth
         p Es la tecnología inalámbrica más utilizada para transmitir datos entre dispositivos cercanos, basada en radiofrecuencia, en la banda libre de 2.4 GHz y 3 Mbps de velocidad máxima; es muy frecuente su uso para pasar fotos y música entre teléfonos móviles. Los autos disponen del sistema bluetooth para atender llamadas telefónicas con manos libres al estar conduciendo, en los dispositivos domésticos es más frecuente como en el mouse, los auriculares, entre otros.
       .row
         img(src='@/assets/curso/iconos/2.svg' alt='2').figpasod
-        .h3 European Installation Bus
+        h4 European Installation Bus
         p Usado para interconectar redes eléctricas inteligentes.
       .row
         img(src='@/assets/curso/iconos/3.svg' alt='3').figpasoi
-        .h3 HomePlug
+        h4 HomePlug
         p Protocolo utilizado para tender cableado doméstico de energía eléctrica.
       .row
         img(src='@/assets/curso/iconos/4.svg' alt='4').figpasod
-        .h3 IrDA
+        h4 IrDA
         p Estándar físico para la transmisión y recepción de datos por rayos; el espectro infrarrojo sirve para la comunicación bidireccional entre dos extremos con velocidades que oscilan entre  9.600 bps y 4 Mbps.
       .row
         img(src='@/assets/curso/iconos/5.svg' alt='5').figpasoi
-        .h3 INSTEON
+        h4 INSTEON
         p Red que trabaja en dos bandas de frecuencia, integrando comunicaciones por   radiofrecuencia (RF) con tendido doméstico para energía eléctrica HomePlug.
       .row
         img(src='@/assets/curso/iconos/6.svg' alt='6').figpasod
-        .h3 nanoNET
+        h4 nanoNET
         p Se trata de protocolos inalámbricos tipo propietario creados para sensores, como competencia de la tecnología ZigBee.
       .row
         img(src='@/assets/curso/iconos/7.svg' alt='7').figpasoi
-        .h3 OBEX
+        h4 OBEX
         p Abreviatura de Object EXchange o intercambio de datos, este protocolo fue creado para facilitar el intercambio de información binaria entre dispositivos.
       .row
         img(src='@/assets/curso/iconos/8.svg' alt='8').figpasod
-        .h3 RadioRa
+        h4 RadioRa
         p Protocolo de tipo propietario desarrollado por Lutron para radiofrecuencia (RF) doble vía, usado en el control de iluminación residencial.
       .row
         img(src='@/assets/curso/iconos/9.svg' alt='9').figpasoi
-        .h3 Topdog
+        h4 Topdog
         p Protocolo tipo propietario inalámbrico, utilizado en el control de iluminación comercial y residencial.
       .row
         img(src='@/assets/curso/iconos/10.svg' alt='10').figpasod
-        .h3 UPB
+        h4 UPB
         p Protocolo desarrollado para mejorar el desempeño y confiabilidad en cableados de energía eléctrica.
       .row
         img(src='@/assets/curso/iconos/11.svg' alt='11').figpasoi
-        .h3 Wifi
+        h4 Wifi
         p Sigla usada para el término en inglés Wireless Fidelity (wifi), tecnología para redes del tipo WLAN Wireless Local Area Network, basada en el estándar IEEE 802.11. Permite realizar la transmisión de información con señales de radiofrecuencia, conectar en una misma red diferentes dispositivos como celulares, PC, blu-ray e impresoras que estén ubicados dentro del radio de cobertura wifi.
       .row
         img(src='@/assets/curso/iconos/12.svg' alt='12').figpasod
-        .h3 Wi-Max
+        h4 Wi-Max
         p Tecnología para red inalámbrica de área metropolitana con un alcance de 50 Km, velocidad de transmisión de hasta 70 Mbps, basada en el estándar 802.16, que opera en el rango de frecuencias de 10 GHz a 66 GHz con línea de vista, con el estándar 802.16a, opera entre los 2 y 11 GHz y sin línea de vista, puede usarse para receptores en vehículos móviles siempre que no superen 100 Km/h de velocidad, se creó como competencia para la tecnología xDSL y el acceso por cable módem.
       .row
         img(src='@/assets/curso/iconos/13.svg' alt='13').figpasoi
-        .h3 Wireless USB
+        h4 Wireless USB
         p Wireless Universal Serial Bus (WUSB) en inglés, hace referencia a una conexión de alta velocidad, eficaz y sin cables, basada en la tecnología USB usada para PC.
       .row
         img(src='@/assets/curso/iconos/14.svg' alt='14').figpasod
-        .h3 Z-wave
+        h4 Z-wave
         p Protocolo tipo propietario usado en redes inalámbricas de control de hogares.
       .row
         img(src='@/assets/curso/iconos/15.svg' alt='15').figpasos
-        .h3 ZigBee
+        h4 ZigBee
         p Especificación global creada para sistemas de control inalámbrico llamados ZigBee Alliance, se basa en el estándar IEEE 802.15.4, usado para radios digitales de baja frecuencia, con velocidad de transmisión 250 Kbps, y limitado a controladores de 8 bits.
-    .separador
+    .custom_hr
     #t_1_7.titulo-segundo
       h2 1.7 Radio, elementos y frecuencias del espectro
     p Actualmente el espectro radioeléctrico es utilizado de forma ineficiente, debido a que las bandas de frecuencia para su uso se realizan de manera fija, para ello surge una tecnología novedosa que es la radio cognitiva, la cual trae consigo varias funcionalidades que garanticen el acceso dinámico al usar el espectro, aquí se nombran  las cuatro más importantes: identificar la oportunidad de acceso al espectro, seleccionar las bandas de frecuencia a usar, coordinar el acceso al espectro entre usuarios, y movilidad espectral. 
@@ -316,28 +315,28 @@
       img(src='@/assets/curso/t1/f22.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Radio cognitiva completa ("radio de mitola")
+          h3 Radio cognitiva completa ("radio de mitola")
           p Aquí cualquier aspecto que se observe en un nodo inalámbrico será tenido en cuenta para la toma de decisiones en el cambio de parámetros de transmisión y/o recepción.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f23.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Radio cognitiva detectora del espectro
+          h3 Radio cognitiva detectora del espectro
           p Para este caso, las decisiones se toman basadas solo en el estado del espectro de radiofrecuencia.
     p Igualmente, de acuerdo con las bandas del espectro disponibles para la radio cognitiva se tiene también:
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f24.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Con licencia
+          h3 Con licencia
           p Se utilizan bandas asignadas a usuarios bajo licencia, e incluso se usan bandas libres como la banda UNII o la ISM.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f25.svg' alt='Icono punto de acceso')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 De acceso libre
+          h3 De acceso libre
           p Aquí la radio cognitiva solo puede hacer uso de bandas libres del espectro de radiofrecuencia.
-    .separador
+    .custom_hr
     #t_1_8.titulo-segundo
       h2 1.8 Diseño e instalación de red
     p Para el diseño de una red inalámbrica no solo se debe realizar la distribución de los dispositivos activos y pasivos, sino que es pertinente definir protocolos, estándares, normas y demás regulaciones necesarias para cumplir con los requerimientos establecidos. En la planeación de un diseño de red se deben tener en cuenta varios aspectos, entre los cuales se nombran los siguientes pasos que ayudan a optimizar el diseño de la red solicitada:
@@ -347,7 +346,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f26.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Recolección de información
+            h3 Recolección de información
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -366,7 +365,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f27.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Revisión de las instalaciones
+            h3 Revisión de las instalaciones
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -388,7 +387,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f28.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Elección de dispositivos
+            h3 Elección de dispositivos
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -401,7 +400,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f29.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Diseño preliminar
+            h3 Diseño preliminar
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -420,7 +419,7 @@
           .col-lg-6
             img(src="@/assets/curso/t1/f30.svg", alt="Figura relacionada").py-4
           .col-lg-6
-            .h2 Diseño definitivo
+            h3 Diseño definitivo
             ul.lista-ul--separador
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
@@ -428,7 +427,7 @@
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
                 | Ejecutar la simulación real del rendimiento, ubicando los puntos de acceso definidos por medio del software elegido.
-    p Para el caso del diseño de una red inalámbrica se realizará una videoclase o web conference que permita explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red. Las figuras siguientes muestran la interfaz principal y la de planificación de redes radioeléctricas de la herramienta Xirio-Online, la cual tiene acceso de forma tanto gratuita como con pago.
+    p.mb-5 Para el caso del diseño de una red inalámbrica se realizará una videoclase o web conference que permita explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red. Las figuras siguientes muestran la interfaz principal y la de planificación de redes radioeléctricas de la herramienta Xirio-Online, la cual tiene acceso de forma tanto gratuita como con pago.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -473,7 +472,7 @@
             li 
               i.fas.fa-play.texto-acento-contenido.me-4
               | Optimizar instalación y reconfiguración de la red.
-    .row.align-items-center.justify-content-between.mb-4
+    .row.align-items-center.justify-content-between.my-5.pt-5
       .col-lg-7
         h3 Servicios
         p El DHCP es una extensión del protocolo Bootstrap (BOOTP) desarrollado en 1985 para conectar dispositivos como terminales y estaciones de trabajo sin disco duro con un bootserver, del cual reciben su sistema operativo. 
@@ -482,9 +481,9 @@
       .col-lg-5.mx-auto
         img(src='@/assets/curso/t1/f32.svg' alt='Wifi')
     p.mb-5 Para asignar direcciones con DHCP se toma el modelo cliente-servidor, donde el terminal o usuario solicita la configuración IP al servidor DHCP, que es quien asigna la respectiva dirección IP acompañada de la máscara de subred, puerta de enlace predeterminada, servidor DNS, y configuración proxy por WPAD (Web Proxy Auto-Discovery Protocol) necesarios para poder acceder a los servicios. La asignación de esta dirección dinámica es de carácter temporal mientras dura la conexión con el servicio solicitado, una vez se termina la conexión, esta dirección es liberada para ser asignada a otro usuario.
-    h3 El servidor DHCP informa al Domain Name System
-    p El servidor DHCP es el encargado de enviar la información al DNS al asignar una nueva dirección IP, la cual se asocia con su nombre de dominio correspondiente. El DHCP no es muy seguro, pues es de fácil manipulación por parte de atacantes a la red que desean apropiarse de la información sensible de sus usuarios.
-    h3 Servidor NAT
+    h4 El servidor DHCP informa al Domain Name System
+    p.mb-5 El servidor DHCP es el encargado de enviar la información al DNS al asignar una nueva dirección IP, la cual se asocia con su nombre de dominio correspondiente. El DHCP no es muy seguro, pues es de fácil manipulación por parte de atacantes a la red que desean apropiarse de la información sensible de sus usuarios.
+    h4 Servidor NAT
     .bloque-texto-a.color-acento-contenido.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-3.mb-4.mb-lg-0
@@ -499,30 +498,30 @@
     .col-lg-10.mx-auto.mb-5
       img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT').mb-4
       figcaption Nota. Página web Profesional review (s.f.).
-    h3 Modos de funcionamiento para NAT
+    h4.pt-5 Modos de funcionamiento para NAT
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f35.svg' alt='Icono estática')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Estática
+          h3 Estática
           p La dirección IP privada siempre se traduce en la misma dirección IP pública. Cualquier host dentro de la red será así visible desde Internet. 
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f36.svg' alt='Icono dinámica')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Dinámica
+          h3 Dinámica
           p A cada dirección IP privada le corresponde al menos una dirección IP pública de las que posee el router, así, cuando un host requiera una conexión a Internet el router asignará la dirección IP pública que no esté siendo usada. De este modo hay más seguridad.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f37.svg' alt='Icono sobrecarga')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Sobrecarga
+          h3 Sobrecarga
           p Aquí se mapean varias direcciones IP privadas por medio de una dirección IP pública, evitando así contratar más de una dirección IP pública, y se ahorran direcciones IPv4. Se le denomina también PAT (Port Address Translation) y es la más usada en los hogares.
     .tarjeta-avatar-b.mb-5
       img(src='@/assets/curso/t1/f38.svg' alt='Icono solapamiento')
       .tarjeta.fondo-casi-blanco
         .p-4
-          .h2 Solapamiento
+          h3 Solapamiento
           p Para evitar el conflicto de direcciones, si hay una dirección IP privada de una red es igual a una dirección IP pública que está en uso, el router reemplaza dicha dirección IP por otra.
     p.mb-5 De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
     .titulo-quinto.color-acento-contenido
@@ -587,29 +586,29 @@
           li 
             i.fas.fa-play.texto-acento-contenido.me-4
             p Antena descompuesta, rota o deteriorada.
-    h3 Instalación de los adaptadores y el router.
-    p Un adaptador o tarjeta de red se requiere para conectar una terminal a Internet. La mayoría de las computadoras tienen conexión de red inalámbrica incorporada. Los equipos más antiguos pueden necesitar que se les adicione un adaptador de red para tener acceso a lnternet.
-    h4 Pasos para instalar el adaptador de red USB:
+    h3 Instalación de los adaptadores y el router
+    p.mb-5 Un adaptador o tarjeta de red se requiere para conectar una terminal a Internet. La mayoría de las computadoras tienen conexión de red inalámbrica incorporada. Los equipos más antiguos pueden necesitar que se les adicione un adaptador de red para tener acceso a lnternet.
+    h4.pt-5 Pasos para instalar el adaptador de red USB:
     PasosA.color-primario.mb-5(tipo="n")
       .row
         img(src='@/assets/curso/t1/f42.svg' alt='paso 1').figpasos
-        .h3 Paso 1
+        h4 Paso 1
         p Conectar el adaptador de red USB a un puerto USB que esté disponible, sin necesidad de apagar el computador.
       .row
         img(src='@/assets/curso/t1/f43.svg' alt='paso 2').figpasod
-        .h3 Paso 2
+        h4 Paso 2
         p Encender el computador e instalar los controladores (drivers) de la tarjeta de red. Si el sistema operativo es Windows, este reconocerá el hardware recién agregado y abrirá una ventana de diálogo «nuevo hardware encontrado», el cual se debe completar. Luego, insertar el CD de configuración y seguir el asistente para terminar la instalación. El software/drivers de la tarjeta de red USB se puede descargar desde el sitio web del fabricante.
       .row
         img(src='@/assets/curso/t1/f44.svg' alt='paso 3').figpasoi
-        .h3 Paso 3
+        h4 Paso 3
         p Una vez que la tarjeta de red se ha instalado con éxito se deben establecer los valores de configuración de la tarjeta como dirección IP, máscara de subred, puerta de enlace o gateway, y servidores DNS (se recomienda ponerse en contacto con el administrador de red para comprobar los valores de configuración).
       .row
         img(src='@/assets/curso/t1/f45.svg' alt='paso 4').figpasoe
-        .h3 Paso 4
+        h4 Paso 4
         p Reiniciar el equipo si es necesario o en su defecto verificar si el adaptador de red está listo para su uso.
     h3 Instalación del <b>router</b>
     p Este dispositivo posee puertos RJ45 para red LAN, en los cuales se deben conectar los cables patch cord hacia los dispositivos cableados y red WAN, donde se debe colocar el cable patch cord de alimentación a Internet del ISP, igualmente, se debe colocar la antena para acceso inalámbrico de los dispositivos a la red WLAN.  Por tratarse de un dispositivo activo se debe conectar el respectivo cable o adaptador de alimentación para su funcionamiento y, proceder a configurar las características básicas y necesarias como elemento de la red.
-    p En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.
+    p.mb-5 En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

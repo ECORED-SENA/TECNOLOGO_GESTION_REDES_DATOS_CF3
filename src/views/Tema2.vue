@@ -6,8 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Configuración de la red
-    p A continuación, se describen los principales dispositivos que permiten la configuración de la red.
-    .separador
+    p.mb-5 A continuación, se describen los principales dispositivos que permiten la configuración de la red.
     #t_2_1.titulo-segundo
       h2 2.1 Configuración del router TPLINK con referencia TL-MR3220
     p Una interfaz es una herramienta que permite dar acceso directo a la configuración, sistema operativo y demás funcionalidades de cada dispositivo, generalmente se trata de una interfaz gráfica que por medio de un monitor, pantalla o terminal que da acceso a una serie de menús e iconos a utilizar por parte del usuario en la interacción con los dispositivos de la red que necesitan ser configurados o actualizados para su correcto funcionamiento dentro del sistema. Algunas de las características que posee una interfaz son:
@@ -41,23 +40,23 @@
           img(src="@/assets/curso/t2/f2.svg", alt="icono laptop")
           .tarjeta.fondo-casi-blanco
             .p-4
-              .h2 Interfaz GUI
+              h4 Interfaz GUI
               p Usadas para aplicaciones web, móviles, escritorio y juegos que permiten interacción al usuario.
         .tarjeta-avatar-b.mb-5
           img(src="@/assets/curso/t2/f3.svg", alt="icono tablet")
           .tarjeta.fondo-casi-blanco
             .p-4
-              .h2 Interfaz de usuario de pantalla táctil
+              h4 Interfaz de usuario de pantalla táctil
               p Diseñadas para pantallas táctiles, sin botones físicos, se encuentran en smartphone, tablets, cajeros automáticos, etc.
         .tarjeta-avatar-b.mb-5
           img(src="@/assets/curso/t2/f4.svg", alt="icono desktop")
           .tarjeta.fondo-casi-blanco
             .p-4
-              .h2 Interfaz natural de usuario (NUI)
+              h4 Interfaz natural de usuario (NUI)
               p En estos casos se interactúa con un sistema, aplicación y demás, sin utilizar dispositivos de entrada como ratón, teclado y lápiz óptico, a cambio de estos se utilizan las manos o las yemas de los dedos.
       .col-lg-3.mx-auto
         img(src="@/assets/curso/t2/f5.svg", alt="persona con dispositivos")
-    p En el siguiente video se explicará la configuración del router TPLINK con referencia TL-MR3220.
+    p.mb-5 En el siguiente video se explicará la configuración del router TPLINK con referencia TL-MR3220.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -81,7 +80,7 @@
             li 
               i.fas.fa-play.texto-acento-contenido.me-4
               | WEP
-    h3 Autenticación
+    h3.pt-5 Autenticación
     p La autenticación de sistema abierto consta de dos comunicaciones:
     .row.align-items-center.mb-4
       .col-lg-6
@@ -89,7 +88,7 @@
         p Con la autenticación de clave compartida o frase de contraseña se configura manualmente tanto en el dispositivo móvil como en el PA/enrutador.
       .col-lg-4.mx-auto
         img(src='@/assets/curso/t2/f7.svg' alt='Personas conectadas a dispositivos')
-    .separador
+    .custom_hr
     #t_2_2.titulo-segundo
       h2 2.2	Seguridad, <i>firewall</i>, filtros, aplicaciones
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -137,9 +136,7 @@
     .cajon.color-acento-contenido.p-4.mb-5
       p.mb-0 Por el contrario, un <i>firewall</i> por <i>hardware</i> viene normalmente instalado en los router que se utilizan para acceder a Internet, por tanto, todos los dispositivos que se conecten a un <i>router</i> estarán protegidos por un <i>firewall</i> que está incluido en el <i>router</i>, como se muestra en la siguiente figura.
     SlyderC.mb-5(:datos="datosSlider1")
-    p El acceso inalámbrico puede filtrarse también con el uso de direcciones MAC (Media Access Control) de los dispositivos inalámbricos que transmiten dentro del radio de su red, permitiendo o restringiendo el acceso de dispositivos inalámbricos específicos a la red inalámbrica.
-    p Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la figura <i>Seguridad wireless</i>.
-    .separador
+    .custom_hr
     #t_2_3.titulo-segundo
       h2 2.3	Características adicionales de las redes
     p Las redes inalámbricas tienen diversas características dependiendo del rango de frecuencias, el medio y la velocidad de transmisión, entre las cuales están:
@@ -180,10 +177,10 @@
           .bloque-texto-a__texto.p-5
             p En concreto, dentro de las características adicionales se encuentra el control parental que se realiza para impedir, o limitar el acceso al manejo de dispositivos destinados a la reproducción o recepción de imágenes e información de determinados contenidos para los menores de edad, determinando con exactitud los dispositivos que se deben bloquear o proteger. Dado que el acceso a Internet de los menores hoy en día es increíblemente fácil y cada vez se produce a edades más tempranas, debido a que se pone al alcance de los dispositivos multimedia como smartphones o tablets, es imprescindible una buena educación digital. Como segundo apoyo, el uso de filtros y herramientas de control parental que les protejan de sitios y contenidos inseguros e inapropiados para estas edades. Por lo tanto, servirá para limitar el acceso de los pequeños a cierto contenido en Internet, limitar el tiempo que pasan los pequeños navegando o intercambiando información por Internet, como se muestra en la siguiente figura.
     .titulo-quinto.color-acento-contenido
-      h4 Configuración control parental
-    img(src='@/assets/curso/imagenes/cp.png' alt='Imagen control parental')
-    p Como se indicó, se puede modificar los DNS de un equipo para que se filtre la información a través de ellos y llegue de manera segura, pero como alternativa a ello, hay otros métodos para instaurar un sistema de control parental cuando se tienen computadores que usan Windows como sistema operativo.
-    .cajon.color-acento-contenido.p-4.mb-4
+      h4.pt-5 Configuración control parental
+    img(src='@/assets/curso/imagenes/cp.png' alt='Imagen control parental').mb-5
+    p.mb-5 Como se indicó, se puede modificar los DNS de un equipo para que se filtre la información a través de ellos y llegue de manera segura, pero como alternativa a ello, hay otros métodos para instaurar un sistema de control parental cuando se tienen computadores que usan Windows como sistema operativo.
+    .cajon.color-acento-contenido.p-4.mb-5
       .row.align-items-center
         .col-lg-3.mx-auto
           img(src='@/assets/curso/t2/f16.svg' alt='figura relacionada')
@@ -212,7 +209,7 @@
     p Esta herramienta dará la posibilidad de controlar el tiempo de conexión del menor, filtros de contenido prohibido e inapropiado, incluso, cuenta con  algo que no todos los sistemas de control parental han tenido en cuenta, la restricción de palabras.
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Se pueden personalizar filtros de contenido y ver la actividad del computador que se quiera, y para ampliar la versión de pago ofrece informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el smartphone del menor que podrá usar en cualquier momento para pedir ayuda.
-    .separador
+    .custom_hr
     #t_2_4.titulo-segundo
       h2 2.4	Red wifi para invitados
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -223,14 +220,14 @@
           .bloque-texto-a__texto.p-5
             p Seguro que en más de una ocasión se ha encontrado en la situación de que amigos o familiares piden la clave del wifi; hay una visita para comer, por ejemplo, y se quieren conectar a la red, ahora bien, en ocasiones puede ser un problema, puede ocurrir que simplemente no recuerde la clave, también es probable que se quiera mantener la seguridad de la red o que incluso poner cierto límite y que no se consuma todo el ancho de banda. Esto último especialmente es interesante en conexiones más lentas, como puede ser ADSL, en la que los recursos son más limitados.
     p Lo primero que hay que tener en cuenta es que no en todos los router es igual, aunque sí es una función similar, en la mayoría de los dispositivos modernos está disponible. Ya se sabe que evitar la pérdida de señal wifi es vital.
-    p En el siguiente video se explicará la configuración de wifi para invitados.
+    p.mb-5 En el siguiente video se explicará la configuración de wifi para invitados.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Pero seguro que, si se realiza una prueba de velocidad con una conexión ADSL en la que se tiene a toda la familia conectada y viendo videos de YouTube, los datos no son los que se desearían. En algunos modelos incluso se puede limitar el ancho de banda, por ejemplo, asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red wifi para invitados. De esta manera se puede crear una red wifi para invitados, una forma interesante para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
-    .separador
+    .custom_hr
     #t_2_5.titulo-segundo
       h2 2.5	Prioridad de medios
     p Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos, para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
@@ -238,7 +235,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
-    .separador
+    .custom_hr
     #t_2_6.titulo-segundo
       h2 2.6	Reenvío de puertos
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -268,7 +265,8 @@ export default {
     datosSlider1: [
       {
         titulo: 'Firewall por hardware',
-        texto: '',
+        texto:
+          'El acceso inalámbrico puede filtrarse también con el uso de direcciones MAC (Media Access Control) de los dispositivos inalámbricos que transmiten dentro del radio de su red, permitiendo o restringiendo el acceso de dispositivos inalámbricos específicos a la red inalámbrica.<br><br>Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la figura <i>Seguridad wireless</i>.',
         imagen: require('@/assets/curso/imagenes/sb.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
