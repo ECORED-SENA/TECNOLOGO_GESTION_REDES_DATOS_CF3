@@ -88,7 +88,7 @@
         p Con la autenticación de clave compartida o frase de contraseña se configura manualmente tanto en el dispositivo móvil como en el PA/enrutador.
       .col-lg-4.mx-auto
         img(src='@/assets/curso/t2/f7.svg' alt='Personas conectadas a dispositivos')
-    .custom_hr
+    Separador
     #t_2_2.titulo-segundo
       h2 2.2	Seguridad, <i>firewall</i>, filtros, aplicaciones
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -136,7 +136,7 @@
     .cajon.color-acento-contenido.p-4.mb-5
       p.mb-0 Por el contrario, un <i>firewall</i> por <i>hardware</i> viene normalmente instalado en los router que se utilizan para acceder a Internet, por tanto, todos los dispositivos que se conecten a un <i>router</i> estarán protegidos por un <i>firewall</i> que está incluido en el <i>router</i>, como se muestra en la siguiente figura.
     SlyderC.mb-5(:datos="datosSlider1")
-    .custom_hr
+    Separador
     #t_2_3.titulo-segundo
       h2 2.3	Características adicionales de las redes
     p Las redes inalámbricas tienen diversas características dependiendo del rango de frecuencias, el medio y la velocidad de transmisión, entre las cuales están:
@@ -209,7 +209,7 @@
     p Esta herramienta dará la posibilidad de controlar el tiempo de conexión del menor, filtros de contenido prohibido e inapropiado, incluso, cuenta con  algo que no todos los sistemas de control parental han tenido en cuenta, la restricción de palabras.
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Se pueden personalizar filtros de contenido y ver la actividad del computador que se quiera, y para ampliar la versión de pago ofrece informes mucho más detallados, bloqueo total de pornografía, bloqueo de aplicaciones, juegos y contenidos, monitorización de YouTube, seguimiento en redes sociales, control de llamadas y SMS, geolocalización por GPS y un botón de pánico instalable en el smartphone del menor que podrá usar en cualquier momento para pedir ayuda.
-    .custom_hr
+    Separador
     #t_2_4.titulo-segundo
       h2 2.4	Red wifi para invitados
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -227,7 +227,7 @@
       figcaption Video
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Pero seguro que, si se realiza una prueba de velocidad con una conexión ADSL en la que se tiene a toda la familia conectada y viendo videos de YouTube, los datos no son los que se desearían. En algunos modelos incluso se puede limitar el ancho de banda, por ejemplo, asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red wifi para invitados. De esta manera se puede crear una red wifi para invitados, una forma interesante para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
-    .custom_hr
+    Separador
     #t_2_5.titulo-segundo
       h2 2.5	Prioridad de medios
     p Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos, para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
@@ -235,7 +235,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
-    .custom_hr
+    Separador
     #t_2_6.titulo-segundo
       h2 2.6	Reenvío de puertos
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 

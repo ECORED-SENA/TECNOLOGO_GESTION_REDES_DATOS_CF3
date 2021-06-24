@@ -58,7 +58,7 @@
           .col-md-6.mb-4.mb-md-0
             h5 Redes inalámbricas de área extensa o WWAN
             p (Wireless Wide Area Network). Conocidas también como de área global o WGAN, tienen cobertura de una gran región, país o grupo de países, basadas en tecnología celular, y son consideradas como la evolución de las redes de voz.
-    .custom_hr
+    Separador
     #t_1_2.titulo-segundo
       h2 1.2 Funcionamiento de las redes inalámbricas
     .row.align-items-center.fondo-azul-clarito.p-5
@@ -74,7 +74,7 @@
           li 
             i.lista-ul__vineta
             p.mb-0 <b>Infraestructura (BSS).</b> Para este caso la conexión se hace utilizando un AP (punto de acceso), el cual permite que la red inalámbrica acceda la red cableada, dicho AP trabaja como puerta de entrada a la red inalámbrica con una cobertura determinada y en un lugar específico para los dispositivos que necesiten acceder.
-    .custom_hr
+    Separador
     #t_1_3.titulo-segundo
       h2 1.3 Ventajas y desventajas
     p De acuerdo con Andreu (2011) las principales ventajas de utilizar una red inalámbrica son:
@@ -127,7 +127,7 @@
             li 
               i.fas.fa-play.texto-acento-contenido.me-4
               | Poseen un menor ancho de banda que las redes que se unen mediante cables.
-    .custom_hr
+    Separador
     #t_1_4.titulo-segundo
       h2 1.4 Componentes de las redes inalámbricas
     p Se encuentran integradas por los siguientes dispositivos:
@@ -161,7 +161,7 @@
         .p-4
           h3 Adaptadores
           p Son tarjetas para expandir la capacidad de conexión, envían y reciben datos sin necesidad de cables en las redes WLAN, poseen una antena para la recepción y envío de datos, y están diseñados para algunos estándares de redes inalámbricas.
-    .custom_hr
+    Separador
     #t_1_5.titulo-segundo
       h2 1.5 Modos de operación
     .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
@@ -214,27 +214,21 @@
         p Para este caso se pueden encontrar varias formas de distribuir los elementos conectados a la red, las cuales se presentan en la siguiente tabla.
     .titulo-quinto.color-acento-contenido.pt-5
       h4 Tipos de infraestructuras inalámbricas BSS
-    .tabla-a.color-acento-botones.mb-5 
-      table
-        caption
-        thead
-          tr
-            th.texto-acento-contenido.text-center Tipo
-            th.texto-acento-contenido Organización
-        tbody
-          tr
-            td.h4.text-center Estrella
-            td <img src='@/assets/curso/t1/f17.svg' alt='Figura relacionada'/>
-          tr
-            td.h4.text-center Punto a punto
-            td <img src='@/assets/curso/t1/f18.svg' alt='Figura relacionada'/>
-          tr
-            td.h4.text-center Con repetidores
-            td <img src='@/assets/curso/t1/f19.svg' alt='Figura relacionada'/>
-          tr
-            td.h4.text-center Malla
-            td <img src='@/assets/curso/t1/f20.svg' alt='Figura relacionada'/>
-    .custom_hr
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-acento-contenido--borde.fcb.p-4(titulo="Tipo 1")
+        h4 Estrella
+        img(src='@/assets/curso/t1/f17.svg', alt='Figura estrella')
+      .tarjeta.color-acento-contenido--borde.fcb.p-4(titulo="Tipo 2")
+        h4 Punto a punto
+        img(src='@/assets/curso/t1/f18.svg', alt='Figura punto a punto')
+      .tarjeta.color-acento-contenido--borde.fcb.p-4(titulo="Tipo 3")
+        h4 Con repetidores
+        img(src='@/assets/curso/t1/f19.svg', alt='Figura con repetidores')
+      .tarjeta.color-acento-contenido--borde.fcb.p-4(titulo="Tipo 4")
+        h4 Malla
+        img(src='@/assets/curso/t1/f20.svg', alt='Figura malla')
+    
+    Separador
     #t_1_6.titulo-segundo
       h2 1.6 Tecnologías de redes inalámbricas
     p Actualmente existen dos tipos de redes inalámbricas, para exteriores e interiores; en los sistemas para exteriores el sistema de posicionamiento global conocido como GPS por sus siglas en inglés (Global Positioning System), es el estándar de referencia por la precisión que consigue el receptor en línea directa con varios satélites de forma simultánea.
@@ -306,7 +300,7 @@
         img(src='@/assets/curso/iconos/15.svg' alt='15').figpasos
         h4 ZigBee
         p Especificación global creada para sistemas de control inalámbrico llamados ZigBee Alliance, se basa en el estándar IEEE 802.15.4, usado para radios digitales de baja frecuencia, con velocidad de transmisión 250 Kbps, y limitado a controladores de 8 bits.
-    .custom_hr
+    Separador
     #t_1_7.titulo-segundo
       h2 1.7 Radio, elementos y frecuencias del espectro
     p Actualmente el espectro radioeléctrico es utilizado de forma ineficiente, debido a que las bandas de frecuencia para su uso se realizan de manera fija, para ello surge una tecnología novedosa que es la radio cognitiva, la cual trae consigo varias funcionalidades que garanticen el acceso dinámico al usar el espectro, aquí se nombran  las cuatro más importantes: identificar la oportunidad de acceso al espectro, seleccionar las bandas de frecuencia a usar, coordinar el acceso al espectro entre usuarios, y movilidad espectral. 
@@ -336,7 +330,7 @@
         .p-4
           h3 De acceso libre
           p Aquí la radio cognitiva solo puede hacer uso de bandas libres del espectro de radiofrecuencia.
-    .custom_hr
+    Separador
     #t_1_8.titulo-segundo
       h2 1.8 Diseño e instalación de red
     p Para el diseño de una red inalámbrica no solo se debe realizar la distribución de los dispositivos activos y pasivos, sino que es pertinente definir protocolos, estándares, normas y demás regulaciones necesarias para cumplir con los requerimientos establecidos. En la planeación de un diseño de red se deben tener en cuenta varios aspectos, entre los cuales se nombran los siguientes pasos que ayudan a optimizar el diseño de la red solicitada:
