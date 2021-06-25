@@ -17,7 +17,7 @@
         img(src="@/assets/curso/i-f2.svg", alt="Imagen alusiva a redes").p-4
       .col-lg-9
         p En 1907 se comunicaron los primeros mensajes completos a través del Atlántico. Otro dato a tener en cuenta sobre el año 1971 es que un grupo de investigadores bajo la dirección de Norman Abramson, de la Universidad de Hawái, fueron pioneros con el sistema de conmutación de paquetes mediante una red de comunicación por radio llamada ALOHA. Se puede describir que esta fue la primera WLAN, estaba formada por siete computadores situados en distintas islas que se podían comunicar por medio de un servidor. De ahí nació lo que hoy en día se conoce como wifi, en 1997 sale al mercado gracias a la creación del comité 802.11, en el que se dio paso a la estandarización IEEE 802.11 para redes de área local inalámbricas (WLAN).
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mb-5
       p En relación con la elaboración del componente es importante especificar que se abordaron varios autores conocidos en el campo de las redes inalámbricas; se referencian en la bibliografía aquellos de quienes se tomaron los conceptos y ejemplos; respetando al igual que ellos, la recopilación y producción de material para el uso en educación. Es preciso señalar que el conocimiento es social y, por lo tanto, es para usarlo; cuando se investiga especialmente en el campo de la educación se busca aportar a la formación de quienes necesitan adquirir el conocimiento. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de las redes de datos.
     #t_1_1.titulo-segundo
       h2 1.1 Clasificación de redes inalámbricas
@@ -164,16 +164,16 @@
     Separador
     #t_1_5.titulo-segundo
       h2 1.5 Modos de operación
-    .bloque-texto-a.color-acento-contenido.p-md-4.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between.p-4
         .col-lg-3.mb-4.mb-lg-0
           img(src='@/assets/curso/t1/f14.svg' alt='Imagen 4 computadores')
         .col-lg-9
           .bloque-texto-a__texto.p-5
             p Para el estándar 802.11 es importante tener en cuenta dos modos fundamentales de uso para este tipo de redes, el modo ad-hoc y el modo infraestructura BSS, los cuales se detallarán a continuación.
-    .row.align-items-center.justify-content-between.mb-5
-      .col-lg-6
-        h3 Modo ad-hoc.
+    .row.align-items-center.justify-content-between.my-5
+      .col-lg-6.mt-5
+        h3 Modo ad-hoc
         p Se conoce también como punto a punto, en este método los clientes inalámbricos establecen comunicación directa entre sí, por tanto, no es necesario un punto de acceso o AP; cada terminal inalámbrica en una red ad-hoc configura el adaptador inalámbrico en este modo, y debe usar el mismo SSID y canal dentro de la red. Este método limita el número de dispositivos, y si estos aumentan, el rendimiento de la red disminuye, además la conexión ad-hoc es temporal entre dispositivos para un mismo fin, por ejemplo, compartir impresoras, archivos o juegos en la red.
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 La conexión de los equipos se realiza por medio de los adaptadores de red sin necesidad de un punto de acceso. Una infraestructura ad-hoc tendría mínimo 2 computadores, tarjetas de red inalámbrica y, de hecho, los drivers de tarjetas de red. 
@@ -205,7 +205,7 @@
           tr
             td La configuración es mínima.
             td 
-    h3 Modo infraestructura BSS
+    h3.my-5 Modo infraestructura BSS
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6
         img(src='@/assets/curso/t1/f16.svg' alt='Ilustración modo BSS')
@@ -426,7 +426,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
-    h3 Topología de la red
+    h3.mt-5 Topología de la red
     p Escoger la topología inicial de la red depende esencialmente de varios aspectos como:
     .row.align-items-center.mb-5
       .col-lg-5.mx-auto
@@ -488,7 +488,7 @@
             br
             p.mb-0 En la siguiente figura podrá observar el funcionamiento de este servidor.
     .titulo-quinto.color-acento-contenido
-      h4 Funcionamiento Servidor NAT
+      h4.pt-5 Funcionamiento Servidor NAT
     .col-lg-10.mx-auto.mb-5
       img(src='@/assets/curso/t1/f34.svg' alt='Funcionamiento servidor NAT').mb-4
       figcaption Nota. Página web Profesional review (s.f.).

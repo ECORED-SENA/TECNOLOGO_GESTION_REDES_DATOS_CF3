@@ -168,84 +168,80 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Carlos Mauricio Tovar Artunduaga',
         cargo: 'Experto temático',
-        centro: 'Centro de Servicios y Gestión Empresarial',
-        regional: 'Regional Antioquia',
+        centro: 'Centro de Servicios y Gestión Empresarial Regional Antioquia',
       },
       {
         nombre: 'Jorge Eliécer Loaiza Muñoz',
         cargo: 'Experto temático',
-        centro: 'Centro de Diseño e Innovación Tecnológica Industrial',
-        regional: 'Regional Antioquia ',
+        centro:
+          'Centro de Diseño e Innovación Tecnológica Industrial Regional Antioquia ',
       },
       {
         nombre: 'Claudia López Arboleda',
         cargo: 'Experta temática',
-        centro: 'Centro de Teleinformática y Producción Industrial',
-        regional: 'Regional Cauca',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Diseñadora y evaluadora instruccional',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Jesús Antonio Vecino Valero',
         cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo front-end',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

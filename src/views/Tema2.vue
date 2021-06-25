@@ -265,14 +265,14 @@ export default {
     datosSlider1: [
       {
         titulo: 'Firewall por hardware',
-        texto:
-          'El acceso inalámbrico puede filtrarse también con el uso de direcciones MAC (Media Access Control) de los dispositivos inalámbricos que transmiten dentro del radio de su red, permitiendo o restringiendo el acceso de dispositivos inalámbricos específicos a la red inalámbrica.<br><br>Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la figura <i>Seguridad wireless</i>.',
+        texto: '',
         imagen: require('@/assets/curso/imagenes/sb.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Seguridad wireless',
-        texto: '',
+        texto:
+          'El acceso inalámbrico puede filtrarse también con el uso de direcciones MAC (Media Access Control) de los dispositivos inalámbricos que transmiten dentro del radio de su red, permitiendo o restringiendo el acceso de dispositivos inalámbricos específicos a la red inalámbrica.<br><br>Para configurar el filtro MAC es necesario, entre otras cosas, identificar todas las direcciones MAC que se desean filtrar, y conectar los dispositivos inalámbricos al router para que tengan acceso a la red, como se muestra en la figura <i>Seguridad wireless</i>.',
         imagen: require('@/assets/curso/imagenes/sw.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
