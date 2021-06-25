@@ -59,8 +59,8 @@
     p.mb-5 En el siguiente video se explicará la configuración del router TPLINK con referencia TL-MR3220.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VECnk2krCG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Configuración de router TP LINK TL MR3220
     h3 Protección de la red inalámbrica
     .row.align-items-center.justify-content-between.mb-5
       .col-lg-6
@@ -189,8 +189,8 @@
           p.mb-0 En el siguiente video se explicará la configuración del control parental.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FHupKR_VMks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Configuración del control parental
     .row.align-items-center
       .col-lg-7
         p Por otro lado, toda la información registrada en la última semana, incluyendo el tiempo de conexión, los programas y web visitados podrán bloquear cualquier programa o web desde este mismo punto. Como es de esperar, este tipo de sistema de control parental de Windows 10 solo funciona en navegadores Microsoft Edge y Explorer; para evitar el uso de otro navegador se puede bloquear como se mencionó antes, o bien, instalar el control parental del que también disponen Google Chrome o Mozilla Firefox. 
@@ -223,8 +223,8 @@
     p.mb-5 En el siguiente video se explicará la configuración de wifi para invitados.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tm4_SzOVbFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Configuración de una red de invitados
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Pero seguro que, si se realiza una prueba de velocidad con una conexión ADSL en la que se tiene a toda la familia conectada y viendo videos de YouTube, los datos no son los que se desearían. En algunos modelos incluso se puede limitar el ancho de banda, por ejemplo, asignar que únicamente el 20% del total de la red (o lo que se quiera) esté disponible en la red wifi para invitados. De esta manera se puede crear una red wifi para invitados, una forma interesante para que las visitas se puedan conectar a la red sin revelar la clave principal, ni poner en peligro el resto de los equipos conectados a la red.
     Separador
@@ -233,8 +233,8 @@
     p Cambie la prioridad de los adaptadores de red en Windows 10 desde el centro de redes de este sistema operativo. Lo primero que se debe hacer es abrir el centro de redes y recursos compartidos, para ello, en el siguiente video se explicará la configuración de la prioridad de medios.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/CpiJcyv9s9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Configuración de la prioridad de medios
     Separador
     #t_2_6.titulo-segundo
       h2 2.6	Reenvío de puertos
@@ -249,8 +249,8 @@
             p Este problema se puede solucionar si se configura el reenvío de puertos en Windows 10; es un proceso sencillo y simplemente hay que llevar a cabo una serie de pasos que se van a explicar en el siguiente video.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/K6of_PrMUtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Reenvío de puertos
     p Cuando se haya creado la regla se unirá a todas las que ya estaban presentes. Se puede modificar, hacer que se aplique solo a unos determinados programas o servicios, etc. En definitiva, siguiendo estos pasos que se han mencionado se pueden reenviar puertos en Windows 10 en caso de que una aplicación o servicio pida hacerlo.
     .cajon.color-acento-contenido.p-4.mb-4
       p.mb-0 Finalmente, todo lo indicado anteriormente es un proceso sencillo, rápido y que se puede lograr a través de la propia configuración del sistema operativo, sin tener que instalar nada adicional. Por otra parte, es necesario recordar la importancia de contar con herramientas de seguridad; un buen antivirus y firewall pueden evitar la entrada de amenazas. En este sentido, se tiene la posibilidad de hacer uso de Windows Defender, que está disponible en el sistema operativo de Microsoft de forma gratuita.

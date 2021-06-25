@@ -424,9 +424,9 @@
     p.mb-5 Para el caso del diseño de una red inalámbrica se realizará una videoclase o web conference que permita explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red. Las figuras siguientes muestran la interfaz principal y la de planificación de redes radioeléctricas de la herramienta Xirio-Online, la cual tiene acceso de forma tanto gratuita como con pago.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Mtax3Za4A-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
-    h3.mt-5 Topología de la red
+    h3.mt-5 Registro de nuevo usuario en Xirio Online
     p Escoger la topología inicial de la red depende esencialmente de varios aspectos como:
     .row.align-items-center.mb-5
       .col-lg-5.mx-auto
@@ -605,8 +605,8 @@
     p.mb-5 En el siguiente video podrá observar el procedimiento para la configuración de dispositivos.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZS4WEUHs3B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Configuración IP del equipo
 
 </template>
 
