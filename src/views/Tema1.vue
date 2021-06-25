@@ -182,7 +182,7 @@
         img(src='@/assets/curso/t1/f15.svg' alt='Ilustración modo ad-hoc')
     .titulo-quinto.color-acento-contenido.pt-5
       h4 Ventajas y desventajas modo ad-hoc
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-primario.mb-5 
       table
         caption
         thead
@@ -520,7 +520,7 @@
     p.mb-5 De manera que en la siguiente tabla se muestran las ventajas y desventajas que tiene el Servidor NAT.
     .titulo-quinto.color-acento-contenido
       h4 Ventajas y desventajas del Servidor NAT
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-primario.mb-5 
       table
         thead
           tr
