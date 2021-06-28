@@ -421,12 +421,18 @@
               li 
                 i.fas.fa-play.texto-acento-contenido.me-4
                 | Ejecutar la simulación real del rendimiento, ubicando los puntos de acceso definidos por medio del software elegido.
-    p.mb-5 Para el caso del diseño de una red inalámbrica se realizará una videoclase o web conference que permita explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red. Las figuras siguientes muestran la interfaz principal y la de planificación de redes radioeléctricas de la herramienta Xirio-Online, la cual tiene acceso de forma tanto gratuita como con pago.
+    p.mb-5 Para el caso del diseño de una red inalámbrica se realizaron dos videos que permiten explicar el procedimiento de simulación profesional de cobertura radioeléctrica online, a través de la herramienta de planificación radioeléctrica Xirio-Online para un caso específico de red.
+    h4 Interfaz principal Xirio Online
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Mtax3Za4A-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video
-    h3.mt-5 Registro de nuevo usuario en Xirio Online
+      //figcaption Interfaz principal Xirio Online
+    h4 Interfaz para la planeación de redes radioeléctricas
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EtvkCY0FWoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      //figcaption Interfaz para la planeación de redes radioeléctricas
+    h4.mt-5 Topología de la red
     p Escoger la topología inicial de la red depende esencialmente de varios aspectos como:
     .row.align-items-center.mb-5
       .col-lg-5.mx-auto
